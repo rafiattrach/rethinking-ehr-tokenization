@@ -1,0 +1,62 @@
+# @package _global_
+
+# specify here default configuration
+# order of defaults determines the order in which configs override each other
+defaults:
+  - override /data: pytorch_dataset
+  - override /logger: many_loggers
+  - override /model/backbone: triplet_transformer_encoder
+  - override /model/input_encoder: textcode_encoder_flexible
+  - override /model: supervised
+  - override /trainer: gpu
+
+# all parameters below will be merged with parameters from default configurations set above
+# this allows you to overwrite only specified parameters
+
+tags:
+  - "mimiciv"
+  - "textcode"
+  - "rq3_flexible"
+
+seed: 0
+
+trainer:
+  min_epochs: 1
+  max_epochs: 10
+  gradient_clip_val: 1.0
+  precision: 32
+  strategy: auto
+
+data:
+  dataloader:
+    batch_size: 64
+    num_workers: 6
+  max_seq_len: 128
+  text_max_seq_len: 1000
+  collate_type: "textcode"
+  subsequence_sampling_strategy: "to_end"
+
+model:
+  token_dim: 128
+  max_seq_len: 128
+  input_encoder:
+    # These can be overridden via command line:
+    # ++model.input_encoder.code_embedder=nlpie/tiny-clinicalbert
+    # ++model.input_encoder.code_tokenizer=nlpie/tiny-clinicalbert  
+    # ++model.input_encoder.code_metadata_fp=triplet_tensors/metadata/codes.parquet
+    # ++model.input_encoder.freeze_model=false
+    code_embedder: nlpie/tiny-clinicalbert
+    code_tokenizer: nlpie/tiny-clinicalbert
+    code_metadata_fp: triplet_tensors/metadata/codes.parquet
+    freeze_model: false
+    tokenizer_config:
+      padding: true
+      truncation: false
+      max_length: ${model.token_dim}
+      return_tensors: pt
+  optimizer:
+    lr: 0.001
+  backbone:
+    n_layers: 2
+    nheads: 4
+    dropout: 0 

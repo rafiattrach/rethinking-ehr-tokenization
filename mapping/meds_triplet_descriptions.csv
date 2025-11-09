@@ -1,0 +1,1206 @@
+vocab_index,code,description
+1,BMI,BMI (Body mass index)
+2,BMI (kg/m2),BMI (Body mass index) (kg/m2)
+3,Blood Pressure,Blood Pressure
+4,DIAGNOSIS//ICD//10//D62,Acute posthemorrhagic anemia (ICD 10: D62)
+5,DIAGNOSIS//ICD//10//D649,"Anemia, unspecified (ICD 10: D649)"
+6,DIAGNOSIS//ICD//10//E039,"Hypothyroidism, unspecified (ICD 10: E039)"
+7,DIAGNOSIS//ICD//10//E119,Type 2 diabetes mellitus without complications (ICD 10: E119)
+8,DIAGNOSIS//ICD//10//E669,"Obesity, unspecified (ICD 10: E669)"
+9,DIAGNOSIS//ICD//10//E785,"Hyperlipidemia, unspecified (ICD 10: E785)"
+10,DIAGNOSIS//ICD//10//E872,Acidosis (ICD 10: E872)
+11,DIAGNOSIS//ICD//10//F17210,"Nicotine dependence, cigarettes, uncomplicated (ICD 10: F17210)"
+12,DIAGNOSIS//ICD//10//F329,"Major depressive disorder, single episode, unspecified (ICD 10: F329)"
+13,DIAGNOSIS//ICD//10//F419,"Anxiety disorder, unspecified (ICD 10: F419)"
+14,DIAGNOSIS//ICD//10//G4733,Obstructive sleep apnea (adult) (pediatric) (ICD 10: G4733)
+15,DIAGNOSIS//ICD//10//I10,Essential (primary) hypertension (ICD 10: I10)
+16,DIAGNOSIS//ICD//10//I2510,Atherosclerotic heart disease of native coronary artery without angina pectoris (ICD 10: I2510)
+17,DIAGNOSIS//ICD//10//I4891,Unspecified atrial fibrillation (ICD 10: I4891)
+18,DIAGNOSIS//ICD//10//K219,Gastro-esophageal reflux disease without esophagitis (ICD 10: K219)
+19,DIAGNOSIS//ICD//10//N179,"Acute kidney failure, unspecified (ICD 10: N179)"
+20,DIAGNOSIS//ICD//10//Y929,Unspecified place or not applicable (ICD 10: Y929)
+21,DIAGNOSIS//ICD//10//Z20822,Contact with and (suspected) exposure to COVID-19 (ICD 10: Z20822)
+22,DIAGNOSIS//ICD//10//Z66,Do not resuscitate (ICD 10: Z66)
+23,DIAGNOSIS//ICD//10//Z7901,Long term (current) use of anticoagulants (ICD 10: Z7901)
+24,DIAGNOSIS//ICD//10//Z7902,Long term (current) use of antithrombotics/antiplatelets (ICD 10: Z7902)
+25,DIAGNOSIS//ICD//10//Z87891,Personal history of nicotine dependence (ICD 10: Z87891)
+26,DIAGNOSIS//ICD//9//2449,Unspecified acquired hypothyroidism (ICD 9: 2449)
+27,DIAGNOSIS//ICD//9//25000,"Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled (ICD 9: 25000)"
+28,DIAGNOSIS//ICD//9//2720,Pure hypercholesterolemia (ICD 9: 2720)
+29,DIAGNOSIS//ICD//9//2724,Other and unspecified hyperlipidemia (ICD 9: 2724)
+30,DIAGNOSIS//ICD//9//2859,"Anemia, unspecified (ICD 9: 2859)"
+31,DIAGNOSIS//ICD//9//30000,"Anxiety state, unspecified (ICD 9: 30000)"
+32,DIAGNOSIS//ICD//9//3051,Tobacco use disorder (ICD 9: 3051)
+33,DIAGNOSIS//ICD//9//311,"Depressive disorder, not elsewhere classified (ICD 9: 311)"
+34,DIAGNOSIS//ICD//9//4019,Unspecified essential hypertension (ICD 9: 4019)
+35,DIAGNOSIS//ICD//9//41401,Coronary atherosclerosis of native coronary artery (ICD 9: 41401)
+36,DIAGNOSIS//ICD//9//42731,Atrial fibrillation (ICD 9: 42731)
+37,DIAGNOSIS//ICD//9//4280,"Congestive heart failure, unspecified (ICD 9: 4280)"
+38,DIAGNOSIS//ICD//9//53081,Esophageal reflux (ICD 9: 53081)
+39,DIAGNOSIS//ICD//9//5849,"Acute kidney failure, unspecified (ICD 9: 5849)"
+40,DIAGNOSIS//ICD//9//5990,"Urinary tract infection, site not specified (ICD 9: 5990)"
+41,DIAGNOSIS//ICD//9//V1582,Personal history of tobacco use (ICD 9: V1582)
+42,ED_OUT,Patient left the emergency department
+43,ED_REGISTRATION,Patient registered in the emergency department
+44,GENDER//F,Gender recorded as female
+45,GENDER//M,Gender recorded as male
+46,HCPCS//Hospital observation per hr,"Hospital observation service, per hour"
+47,HCPCS//Hospital observation services,Hospital observation services
+48,HOSPITAL_ADMISSION//DIRECT OBSERVATION//PHYSICIAN REFERRAL,Admitted for direct observation via physician referral
+49,HOSPITAL_ADMISSION//EU OBSERVATION//EMERGENCY ROOM,Admitted for EU observation from emergency room
+50,HOSPITAL_ADMISSION//EW EMER.//EMERGENCY ROOM,Admitted as emergency from emergency room
+51,HOSPITAL_ADMISSION//OBSERVATION ADMIT//EMERGENCY ROOM,Admitted for observation from emergency room
+52,HOSPITAL_ADMISSION//OBSERVATION ADMIT//PHYSICIAN REFERRAL,Admitted for observation via physician referral
+53,HOSPITAL_ADMISSION//OBSERVATION ADMIT//WALK-IN/SELF REFERRAL,Admitted for observation via walk-in/self referral
+54,HOSPITAL_ADMISSION//SURGICAL SAME DAY ADMISSION//PHYSICIAN REFERRAL,Admitted for same day surgery via physician referral
+55,HOSPITAL_ADMISSION//URGENT//PHYSICIAN REFERRAL,Admitted urgently via physician referral
+56,HOSPITAL_ADMISSION//URGENT//TRANSFER FROM HOSPITAL,Admitted urgently via transfer from hospital
+57,HOSPITAL_DISCHARGE//HOME,Discharged to home
+58,HOSPITAL_DISCHARGE//HOME HEALTH CARE,Discharged to home health care
+59,HOSPITAL_DISCHARGE//SKILLED NURSING FACILITY,Discharged to skilled nursing facility
+60,HOSPITAL_DISCHARGE//UNK,Discharged from hospital
+61,Height (Inches),Height (Inches)
+62,ICU_ADMISSION//Cardiac Vascular Intensive Care Unit (CVICU),Admitted to Cardiac Vascular Intensive Care Unit (CVICU)
+63,ICU_ADMISSION//Medical Intensive Care Unit (MICU),Admitted to Medical Intensive Care Unit (MICU)
+64,ICU_DISCHARGE//Cardiac Vascular Intensive Care Unit (CVICU),Discharged from Cardiac Vascular Intensive Care Unit (CVICU)
+65,ICU_DISCHARGE//Medical Intensive Care Unit (MICU),Discharged from Medical Intensive Care Unit (MICU)
+66,INFUSION_END//220949,Infusion of Dextrose 5% ended
+67,INFUSION_END//221456,Infusion of calcium gluconate ended
+68,INFUSION_END//221744,Infusion of fentanyl ended
+69,INFUSION_END//221749,Infusion of phenylephrine ended
+70,INFUSION_END//221794,Infusion of furosemide (Lasix) ended
+71,INFUSION_END//221833,Infusion of hydromorphone (Dilaudid) ended
+72,INFUSION_END//221906,Infusion of norepinephrine ended
+73,INFUSION_END//222011,Infusion of magnesium sulfate ended
+74,INFUSION_END//222168,Infusion of propofol ended
+75,INFUSION_END//223258,"Infusion of insulin, regular, human ended"
+76,INFUSION_END//225154,Infusion of morphine ended
+77,INFUSION_END//225158,Infusion of NaCl 0.9% ended
+78,INFUSION_END//225166,Infusion of potassium chloride ended
+79,INFUSION_END//225168,Infusion of Packed Red Blood Cells ended
+80,INFUSION_END//225798,Infusion of vancomycin vancomycin Oral Solution ended
+81,INFUSION_END//225799,Infusion of Gastric Meds ended
+82,INFUSION_END//225828,Infusion of Lactated Ringers ended
+83,INFUSION_END//225850,Infusion of cefazolin ended
+84,INFUSION_END//225907,Infusion of famotidine (Pepcid) ended
+85,INFUSION_END//225910,Infusion of pantoprazole (Protonix) ended
+86,INFUSION_END//225943,Infusion of Solution ended
+87,INFUSION_END//225975,Infusion of heparin ended
+88,INFUSION_END//226089,Infusion of Piggyback ended
+89,INFUSION_END//226361,Pre-Admission/Non-ICU Intake ended
+90,INFUSION_END//226364,OR Crystalloid Intake ended
+91,INFUSION_END//226452,PO Intake ended
+92,INFUSION_END//226453,GT Flush ended
+93,INFUSION_END//227522,Infusion of potassium chloride ended
+94,INFUSION_END//227523,Infusion of magnesium sulfate ended
+95,INFUSION_END//228315,Infusion of acetaminophen ended
+96,INFUSION_START//220949,Infusion of Dextrose 5% started
+97,INFUSION_START//221456,Infusion of calcium gluconate started
+98,INFUSION_START//221744,Infusion of fentanyl started
+99,INFUSION_START//221749,Infusion of phenylephrine started
+100,INFUSION_START//221794,Infusion of furosemide (Lasix) started
+101,INFUSION_START//221833,Infusion of hydromorphone (Dilaudid) started
+102,INFUSION_START//221906,Infusion of norepinephrine started
+103,INFUSION_START//222011,Infusion of magnesium sulfate started
+104,INFUSION_START//222168,Infusion of propofol started
+105,INFUSION_START//223258,"Infusion of insulin, regular, human started"
+106,INFUSION_START//225154,Infusion of morphine started
+107,INFUSION_START//225158,Infusion of NaCl 0.9% started
+108,INFUSION_START//225166,Infusion of potassium chloride started
+109,INFUSION_START//225168,Infusion of Packed Red Blood Cells started
+110,INFUSION_START//225798,Infusion of vancomycin vancomycin Oral Solution started
+111,INFUSION_START//225799,Infusion of Gastric Meds started
+112,INFUSION_START//225828,Infusion of Lactated Ringers started
+113,INFUSION_START//225850,Infusion of cefazolin started
+114,INFUSION_START//225907,Infusion of famotidine (Pepcid) started
+115,INFUSION_START//225910,Infusion of pantoprazole (Protonix) started
+116,INFUSION_START//225943,Infusion of Solution started
+117,INFUSION_START//225975,Infusion of heparin started
+118,INFUSION_START//226089,Infusion of Piggyback started
+119,INFUSION_START//226361,Pre-Admission/Non-ICU Intake started
+120,INFUSION_START//226364,OR Crystalloid Intake started
+121,INFUSION_START//226452,PO Intake started
+122,INFUSION_START//226453,GT Flush started
+123,INFUSION_START//227522,Infusion of potassium chloride started
+124,INFUSION_START//227523,Infusion of magnesium sulfate started
+125,INFUSION_START//228315,Infusion of acetaminophen started
+126,LAB//220001//UNK,Problem List Documentation 
+127,LAB//220045//bpm,Heart Rate (bpm)
+128,LAB//220046//bpm,Heart Rate High Alarm (bpm)
+129,LAB//220047//bpm,Heart Rate Low Alarm (bpm)
+130,LAB//220048//UNK,Heart Rate rhythm
+131,LAB//220050//mmHg,Systolic blood pressure (mmHg)
+132,LAB//220051//mmHg,Diastolic blood pressure (mmHg)
+133,LAB//220052//mmHg,Mean blood pressure (mmHg)
+134,LAB//220056//mmHg,Arterial Blood Pressure Low Alarm (mmHg)
+135,LAB//220058//mmHg,Arterial Blood Pressure High Alarm (mmHg)
+136,LAB//220072//mmHg,Central Venous Pressure High Alarm (mmHg)
+137,LAB//220073//mmHg,Central Venous Pressure Low Alarm (mmHg)
+138,LAB//220074//mmHg,Central venous pressure (CVP) (mmHg)
+139,LAB//220179//mmHg,Systolic blood pressure by Noninvasive (mmHg)
+140,LAB//220180//mmHg,Diastolic blood pressure by Noninvasive (mmHg)
+141,LAB//220181//mmHg,Mean blood pressure by Noninvasive (mmHg)
+142,LAB//220210//insp/min,Respiratory Rate routine vital signs (insp/min)
+143,LAB//220224//mmHg,Oxygen in Arterial blood (mmHg)
+144,LAB//220227//%,Oxygen saturation in Arterial blood (%)
+145,LAB//220228//g/dl,Hemoglobin ICU (g/dl)
+146,LAB//220235//mmHg,Carbon dioxide in Arterial blood (mmHg)
+147,LAB//220274//units,Venous Blood pH (unitless)
+148,LAB//220277//%,Oxygen saturation in Arterial blood by Pulse oximetry (%)
+149,LAB//220292//L/min,Minute Volume Low Alarm (L/min)
+150,LAB//220293//L/min,Minute Volume High Alarm (L/min)
+151,LAB//220339//cmH2O,Positive end expiratory pressure setting Ventilator (cmH2O)
+152,LAB//220545//%,Hematocrit of Blood (%)
+153,LAB//220546//K/uL,White Blood Cell Count (K/uL)
+154,LAB//220587//IU/L,AST/Aspartate Aminotransferase (IU/L)
+155,LAB//220602//mEq/L,Chloride [Moles/volume] in Serum or Plasma (mEq/L)
+156,LAB//220615//mg/dL,Creatinine [Mass/volume] in Serum or Plasma (mg/dL)
+157,LAB//220621//mg/dL,Glucose [Mass/volume] in Serum or Plasma (mg/dL)
+158,LAB//220632//IU/L,LDH/Lactate Dehydrogenase (IU/L)
+159,LAB//220635//mg/dL,Serum Magnesium (mg/dL)
+160,LAB//220644//IU/L,ALT/Alanine Aminotransferase (IU/L)
+161,LAB//220645//mEq/L,Sodium [Moles/volume] in Serum or Plasma (mEq/L)
+162,LAB//220734//units,Urine pH Dipstick (unitless)
+163,LAB//220739//UNK,Glasgow coma score eye opening
+164,LAB//223679//mEq/L,Total CO2 Venous Calculated (mEq/L)
+165,LAB//223751//mmHg,Non-Invasive Blood Pressure High Alarm (mmHg)
+166,LAB//223752//mmHg,Non-Invasive Blood Pressure Low Alarm (mmHg)
+167,LAB//223758//UNK,Resuscitation status
+168,LAB//223761//°F,Body Temperature in Fahrenheit (°F)
+169,LAB//223769//%,Pulse Oximetry High Alarm (%)
+170,LAB//223770//%,Pulse Oximetry Low Alarm (%)
+171,LAB//223781//UNK,Indicators of pain or possible pain
+172,LAB//223782//UNK,Pain Type Assessment 
+173,LAB//223783//UNK,Pain Location Assessment 
+174,LAB//223784//UNK,Pain Cause Assessment 
+175,LAB//223791//UNK,Pain severity - 0-10 verbal numeric rating [Score] - Reported
+176,LAB//223792//UNK,Pain management
+177,LAB//223794//UNK,Acceptable pain level status
+178,LAB//223795//UNK,Pain assessment
+179,LAB//223796//UNK,Untoward Effect Assessment 
+180,LAB//223830//units,pH of Arterial blood (units)
+181,LAB//223834//L/min,Oxygen gas flow Oxygen delivery system (L/min)
+182,LAB//223835//UNK,Inhaled oxygen concentration
+183,LAB//223837//UNK,Endotracheal tube Diameter
+184,LAB//223838//UNK,Endotracheal Tube Location 
+185,LAB//223848//UNK,Ventilator type
+186,LAB//223849//UNK,Ventilation mode Ventilator
+187,LAB//223872//°C,Temperature Inhaled gas (°C)
+188,LAB//223873//cmH2O,Airway pressure Ventilator --at peak inspiratory flow maximum setting (cmH2O)
+189,LAB//223874//mL,Tidal volume.inspired maximum setting Ventilator alarm (mL)
+190,LAB//223875//insp/min,Fspn High (insp/min)
+191,LAB//223876//sec,Apnea interval Ventilator alarm (sec)
+192,LAB//223898//UNK,Orientation Assessment 
+193,LAB//223900//UNK,Glasgow coma score verbal
+194,LAB//223901//UNK,Glasgow coma score motor
+195,LAB//223902//UNK,Speech Assessment 
+196,LAB//223904//UNK,Gag Reflex Assessment 
+197,LAB//223905//UNK,Cough Reflex Assessment 
+198,LAB//223907//UNK,Right eye Pupil diameter Manual
+199,LAB//223911//UNK,Spontaneous Movement Assessment 
+200,LAB//223916//UNK,Response to Stimuli Type 
+201,LAB//223917//UNK,Right Upper Extremity Strength/Movement 
+202,LAB//223918//UNK,Right Lower Extremity Strength/Movement 
+203,LAB//223919//UNK,Left Upper Extremity Strength/Movement 
+204,LAB//223920//UNK,Left Lower Extremity Strength/Movement 
+205,LAB//223924//UNK,Right Lower Extremity Sensation 
+206,LAB//223934//UNK,Dorsal Pedal Pulse Right Assessment 
+207,LAB//223935//UNK,Posterior Tibial Pulse Right Assessment 
+208,LAB//223936//UNK,Radial Pulse Right Assessment 
+209,LAB//223943//UNK,Dorsal Pedal Pulse Left Assessment 
+210,LAB//223947//UNK,Posterior Tibial Pulse Left Assessment 
+211,LAB//223948//UNK,Radial Pulse Left Assessment 
+212,LAB//223951//UNK,Capillary Refill Right Assessment 
+213,LAB//223976//UNK,Right Upper Extremity Color Assessment 
+214,LAB//223979//UNK,Right Lower Extremity Color Assessment 
+215,LAB//223982//UNK,Left Upper Extremity Color Assessment 
+216,LAB//223983//UNK,Left Lower Extremity Color Assessment 
+217,LAB//223985//UNK,Respiration rhythm
+218,LAB//223986//UNK,Right Upper Lobe Lung Sounds 
+219,LAB//223987//UNK,Right Lower Lobe Lung Sounds 
+220,LAB//223988//UNK,Left Upper Lobe Lung Sounds 
+221,LAB//223989//UNK,Left Lower Lobe Lung Sounds 
+222,LAB//223990//UNK,Respiratory effort
+223,LAB//223991//UNK,Cough Effort Assessment 
+224,LAB//223992//UNK,Cough Type Assessment 
+225,LAB//223993//UNK,Chest Tube Site #1 Assessment 
+226,LAB//223994//UNK,Chest Tube #1 Suction Amount 
+227,LAB//223995//UNK,Chest Tube #1 Fluctuate Assessment 
+228,LAB//223996//UNK,Chest Tube #1 Drainage Assessment 
+229,LAB//223997//UNK,Chest Tube #1 Dressing Assessment 
+230,LAB//223998//UNK,Chest Tube #1 Crepitus Assessment 
+231,LAB//223999//UNK,Oral Cavity Assessment 
+232,LAB//224000//UNK,Nares Right Assessment 
+233,LAB//224001//UNK,Diet Type Assessment 
+234,LAB//224003//UNK,Physical findings of Abdomen by Palpation
+235,LAB//224004//UNK,Bowel sounds
+236,LAB//224005//UNK,Passing flatus
+237,LAB//224007//UNK,GI #1 Intubation Site Assessment 
+238,LAB//224009//UNK,GI #1 Tube Drainage Assessment 
+239,LAB//224011//UNK,Consistency of Stool
+240,LAB//224012//UNK,Stool Management Assessment 
+241,LAB//224015//UNK,Urine Source Assessment 
+242,LAB//224016//UNK,Color of Urine Assessment
+243,LAB//224017//UNK,GU Catheter Size Assessment 
+244,LAB//224023//UNK,Support Systems Assessment 
+245,LAB//224024//UNK,Family Communication Assessment 
+246,LAB//224026//UNK,Skin integrity
+247,LAB//224027//UNK,Temperature of Skin
+248,LAB//224028//UNK,Color of Skin
+249,LAB//224031//UNK,Edema site
+250,LAB//224040//UNK,Incision Closure #1
+251,LAB//224041//UNK,Incision Drainage #1 Assessment 
+252,LAB//224054//UNK,Sensory perception Braden scale
+253,LAB//224055//UNK,Moisture exposure Braden scale
+254,LAB//224056//UNK,Physical activity Braden scale
+255,LAB//224057//UNK,Physical mobility Braden scale
+256,LAB//224058//UNK,Nutrition intake pattern Braden scale
+257,LAB//224059//UNK,Friction and shear Braden scale
+258,LAB//224072//UNK,Education Learner Assessment 
+259,LAB//224073//UNK,Education Topic Assessment 
+260,LAB//224075//UNK,Education Readiness Assessment 
+261,LAB//224076//UNK,Education Barrier Assessment 
+262,LAB//224077//UNK,Education Method Assessment 
+263,LAB//224079//UNK,Education Response Assessment 
+264,LAB//224080//UNK,Head of Bed Assessment 
+265,LAB//224082//UNK,Turn Assessment 
+266,LAB//224084//UNK,Activity Assessment 
+267,LAB//224086//UNK,Activity Tolerance Assessment 
+268,LAB//224087//UNK,Therapeutic bed
+269,LAB//224088//UNK,Pressure Reducing Device Assessment 
+270,LAB//224089//UNK,Anti Embolic Device Assessment 
+271,LAB//224092//UNK,Range of Motion Location Assessment 
+272,LAB//224093//UNK,Position Assessment 
+273,LAB//224161//insp/min,Respiratory Rate High Alarm (insp/min)
+274,LAB//224162//insp/min,Respiratory Rate Low Alarm (insp/min)
+275,LAB//224168//UNK,Parameters Checked Assessment 
+276,LAB//224226//UNK,Impaired Skin Wound Base #1 Assessment 
+277,LAB//224259//UNK,Impaired Skin Drainage #1 Assessment 
+278,LAB//224281//UNK,Multi Lumen Site Appearance Assessment 
+279,LAB//224283//UNK,Multi Lumen Waveform Appearance Assessment 
+280,LAB//224289//UNK,Arterial Line Site Appearance Assessment 
+281,LAB//224291//UNK,Arterial Line Waveform Appearance Assessment 
+282,LAB//224308//UNK,Capillary Refill Left Assessment 
+283,LAB//224369//UNK,Sputum Consistency Assessment 
+284,LAB//224370//UNK,Color of Sputum
+285,LAB//224372//UNK,Sputum Source Assessment 
+286,LAB//224373//UNK,Sputum Amount Assessment 
+287,LAB//224391//UNK,Endotracheal Tube Mark Location 
+288,LAB//224409//UNK,Pain severity - 0-10 verbal numeric rating [Score] - Reported
+289,LAB//224415//UNK,Endotracheal Tube Mark (cm) 
+290,LAB//224417//cmH2O,Cuff Pressure (cmH2O)
+291,LAB//224421//mL,Tidal volume.spontaneous --on ventilator (mL)
+292,LAB//224422//bpm,Spontaneous Respiratory Rate (bpm)
+293,LAB//224564//UNK,Impaired Skin Odor #1 Assessment 
+294,LAB//224565//UNK,Surrounding Tissue #1 Assessment 
+295,LAB//224639//kg,Daily Weight (kg)
+296,LAB//224640//UNK,Service Assessment 
+297,LAB//224641//UNK,Alarms On Assessment 
+298,LAB//224642//UNK,Body temperature measurement site
+299,LAB//224650//UNK,Ectopy Type 1 Assessment 
+300,LAB//224651//UNK,Ectopy Frequency 1 Assessment 
+301,LAB//224684//mL,Tidal Volume Set (mL)
+302,LAB//224685//mL,Tidal Volume Observed (mL)
+303,LAB//224686//mL,Tidal volume.spontaneous --on ventilator (mL)
+304,LAB//224687//L/min,Volume expired per minute Respiratory system (L/min)
+305,LAB//224688//insp/min,Breath rate setting Ventilator (insp/min)
+306,LAB//224689//insp/min,Spontaneous Respiratory Rate (insp/min)
+307,LAB//224690//insp/min,Respiratory Rate Total (insp/min)
+308,LAB//224691//L/min,Gas flow Respiratory system airway (L/min)
+309,LAB//224692//UNK,Flow Pattern Assessment 
+310,LAB//224695//cmH2O,Pressure max Respiratory system airway --during inspiration (cmH2O)
+311,LAB//224696//cmH2O,Pressure.plateau Respiratory system airway --on ventilator (cmH2O)
+312,LAB//224697//cmH2O,Mean airway pressure (cmH2O)
+313,LAB//224700//cmH2O,Total PEEP Respiratory system (cmH2O)
+314,LAB//224701//cmH2O,Pressure support setting Ventilator (cmH2O)
+315,LAB//224715//UNK,Spontaneous Breathing Trial Started 
+316,LAB//224717//UNK,Spontaneous Breathing Trial Successfully Completed 
+317,LAB//224733//UNK,Left eye Pupil diameter Manual
+318,LAB//224735//UNK,Flow Rate Variable/Fixed Assessment 
+319,LAB//224738//sec,Inspiration Respiratory system (sec)
+320,LAB//224740//UNK,RSBI Deferred Assessment 
+321,LAB//224756//UNK,Response Assessment 
+322,LAB//224758//UNK,Right Upper Extremity Sensation 
+323,LAB//224759//UNK,Left Upper Extremity Sensation 
+324,LAB//224762//UNK,Left Lower Extremity Sensation 
+325,LAB//224767//UNK,Right Upper Extremity Temperature 
+326,LAB//224769//UNK,Left Upper Extremity Temperature 
+327,LAB//224771//UNK,Right Lower Extremity Temperature 
+328,LAB//224773//UNK,Left Lower Extremity Temperature 
+329,LAB//224775//UNK,Chest Tube #1 Leak Assessment 
+330,LAB//224785//UNK,GI #1 Tube Type
+331,LAB//224786//UNK,GI #1 Tube Status Assessment 
+332,LAB//224794//UNK,Color of Stool
+333,LAB//224806//UNK,Chest Tube #1 Suction Type Assessment 
+334,LAB//224828//mEq/L,Base excess in Arterial blood by calculation (mEq/L)
+335,LAB//224832//UNK,Endotracheal Tube Type Assessment 
+336,LAB//224847//UNK,Impaired Skin Drainage Amount #1 Assessment 
+337,LAB//224848//UNK,Incision Appearance #1 Assessment 
+338,LAB//224850//UNK,Incision Drainage Amount #1 Assessment 
+339,LAB//224860//UNK,Skin Condition Assessment 
+340,LAB//224862//UNK,Edema Amount Assessment 
+341,LAB//224865//UNK,Flow Sensitivity Assessment 
+342,LAB//224876//UNK,Appearance of Urine
+343,LAB//224879//UNK,Nares Left Assessment 
+344,LAB//224993//UNK,Incision Appearance #2 Assessment 
+345,LAB//225004//UNK,Incision Closure #2 Assessment 
+346,LAB//225013//UNK,Incision Drainage #2 Assessment 
+347,LAB//225050//UNK,Warming Device Status Assessment 
+348,LAB//225054//UNK,Anti Embolic Device Status Assessment 
+349,LAB//225059//UNK,History of Past illness
+350,LAB//225067//UNK,Healthcare Proxy Spokesperson Assessment 
+351,LAB//225070//UNK,Unable to Assess Psychological Assessment 
+352,LAB//225072//UNK,Living Situation Assessment 
+353,LAB//225074//UNK,Fear in Relationships Assessment 
+354,LAB//225076//UNK,Emotional/Physical/Sexual Harm Assessment 
+355,LAB//225078//UNK,Social Work Consult Assessment 
+356,LAB//225086//UNK,Unable to Assess Cognitive/Perceptual Assessment 
+357,LAB//225087//UNK,Visual/Hearing Deficit Assessment 
+358,LAB//225090//UNK,Interpreter Assessment 
+359,LAB//225091//UNK,Unable to Assess Activity/Mobility Assessment 
+360,LAB//225092//UNK,Self ADL Assessment 
+361,LAB//225094//UNK,History of Slips/Falls Assessment 
+362,LAB//225097//UNK,Balance Assessment 
+363,LAB//225099//UNK,Judgement Assessment 
+364,LAB//225101//UNK,Use of Assistive Devices Assessment 
+365,LAB//225103//UNK,IV Access Prior to Admission Assessment 
+366,LAB//225105//UNK,Unable to Assess Habits Assessment 
+367,LAB//225106//UNK,Alcohol abuse
+368,LAB//225110//UNK,Recreational Drug Use Assessment 
+369,LAB//225112//UNK,Unable to Assess Pain Assessment 
+370,LAB//225113//UNK,Indicators of pain or possible pain
+371,LAB//225117//UNK,Unable to Assess Nutrition/Education Assessment 
+372,LAB//225118//UNK,Difficulty Swallowing Assessment 
+373,LAB//225120//UNK,Appetite Assessment 
+374,LAB//225122//UNK,Special Diet Assessment 
+375,LAB//225124//UNK,Unintentional Weight Loss >10 lbs Assessment 
+376,LAB//225126//UNK,Dialysis Patient Assessment 
+377,LAB//225129//UNK,Unable to Assess Teaching/Learning Needs Assessment 
+378,LAB//225131//UNK,Teaching Directed Toward Assessment 
+379,LAB//225133//UNK,Discharge Needs Assessment 
+380,LAB//225135//UNK,Consults Assessment 
+381,LAB//225175//UNK,See Chart for Initial Patient Assessment 
+382,LAB//225176//UNK,Range of Motion Status Assessment 
+383,LAB//225184//UNK,Eye Care Assessment 
+384,LAB//225185//UNK,Skin Care Assessment 
+385,LAB//225187//UNK,Back Care Assessment 
+386,LAB//225188//UNK,Cough/Deep Breath Assessment 
+387,LAB//225189//UNK,Incentive Spirometry Assessment 
+388,LAB//225206//UNK,Multi Lumen Zero/Calibrate Assessment 
+389,LAB//225210//UNK,Arterial Line Zero/Calibrate Assessment 
+390,LAB//225230//UNK,20 Gauge Reason Discontinued Assessment 
+391,LAB//225231//UNK,20 Gauge Site Appearance Assessment 
+392,LAB//225234//UNK,18 Gauge Site Appearance Assessment 
+393,LAB//225280//UNK,Called Out Assessment 
+394,LAB//225612//IU/L,Alkaline Phosphatase (IU/L)
+395,LAB//225624//mg/dL,Urea nitrogen [Mass/volume] in Blood (mg/dL)
+396,LAB//225625//mg/dL,Calcium Non-Ionized (mg/dL)
+397,LAB//225634//IU/L,Creatine Kinase/CPK (IU/L)
+398,LAB//225639//%,Differential Basophils (%)
+399,LAB//225640//%,Differential Eosinophils (%)
+400,LAB//225641//%,Differential Lymphocytes (%)
+401,LAB//225642//%,Differential Monocytes (%)
+402,LAB//225643//%,Differential Neutrophils (%)
+403,LAB//225664//UNK,Glucose Finger Stick 
+404,LAB//225667//mmol/L,Calcium.ionized [Moles/volume] in Blood (mmol/L)
+405,LAB//225668//mmol/L,Lactate [Moles/volume] in Arterial blood (mmol/L)
+406,LAB//225677//mg/dL,Phosphorous (mg/dL)
+407,LAB//225690//mg/dL,Total Bilirubin (mg/dL)
+408,LAB//225698//mEq/L,"Carbon dioxide, total [Moles/volume] in Arterial blood by calculation (mEq/L)"
+409,LAB//225737//UNK,Arterial Line Discontinued Assessment 
+410,LAB//225811//UNK,Cardiovascular Past Medical History 
+411,LAB//225813//UNK,Baseline Pain Level Assessment 
+412,LAB//225978//UNK,Slope Assessment 
+413,LAB//226062//mmHg,Venous CO2 Pressure (mmHg)
+414,LAB//226063//mmHg,Venous O2 Pressure (mmHg)
+415,LAB//226104//UNK,Level of Consciousness 
+416,LAB//226107//UNK,Arterial Line Placed Outside Facility Assessment 
+417,LAB//226113//UNK,Multi Lumen Placed Outside Facility Assessment 
+418,LAB//226136//UNK,16 Gauge Placed Outside Facility Assessment 
+419,LAB//226137//UNK,18 Gauge Placed Outside Facility Assessment 
+420,LAB//226138//UNK,20 Gauge Placed Outside Facility Assessment 
+421,LAB//226139//UNK,22 Gauge Placed Outside Facility Assessment 
+422,LAB//226168//UNK,Oral care given
+423,LAB//226169//UNK,Subglottal Suctioning Assessment 
+424,LAB//226180//UNK,Sexuality/Reproductive Problems Assessment 
+425,LAB//226185//UNK,ICU Consent Signed Assessment 
+426,LAB//226253//%,SpO2 Desaturation Limit Alarm (%)
+427,LAB//226512//kg,Body weight (kg)
+428,LAB//226531//UNK,Body weight
+429,LAB//226534//mEq/L,Sodium Whole Blood (mEq/L)
+430,LAB//226536//mEq/L,Chloride Whole Blood (mEq/L)
+431,LAB//226537//mg/dL,Glucose Whole Blood (mg/dL)
+432,LAB//226540//%,Hematocrit Whole Blood Calculated (%)
+433,LAB//226707//Inch,Body height (Inch)
+434,LAB//226730//cm,Body height (cm)
+435,LAB//226732//UNK,Oxygen delivery
+436,LAB//226814//UNK,Known Difficult Intubation Assessment 
+437,LAB//226871//UNK,Expiratory Ratio Assessment 
+438,LAB//226873//UNK,Inspiratory Ratio Assessment 
+439,LAB//227073//mEq/L,Anion gap in Blood (mEq/L)
+440,LAB//227121//UNK,Right pupil Pupillary response
+441,LAB//227239//UNK,Arterial Blood Pressure Alarm Source 
+442,LAB//227240//UNK,Non-Invasive Blood Pressure Alarm Source 
+443,LAB//227288//UNK,Left pupil Pupillary response
+444,LAB//227292//UNK,Arterial Line Dressing Occlusive Assessment 
+445,LAB//227341//UNK,History of Falling Within 3 Months Assessment 
+446,LAB//227342//UNK,Secondary Diagnosis Assessment 
+447,LAB//227343//UNK,Ambulatory Aid Assessment 
+448,LAB//227344//UNK,IV/Saline Lock Assessment 
+449,LAB//227345//UNK,Gait/Transferring Assessment 
+450,LAB//227346//UNK,Mental Status Assessment 
+451,LAB//227349//UNK,High Risk >51 Interventions Assessment 
+452,LAB//227366//UNK,16 Gauge Dressing Occlusive Assessment 
+453,LAB//227367//UNK,18 Gauge Dressing Occlusive Assessment 
+454,LAB//227368//UNK,20 Gauge Dressing Occlusive Assessment 
+455,LAB//227369//UNK,22 Gauge Dressing Occlusive Assessment 
+456,LAB//227429//ng/mL,Troponin-T (ng/mL)
+457,LAB//227442//mEq/L,Potassium [Moles/volume] in Serum or Plasma (mEq/L)
+458,LAB//227443//mEq/L,Bicarbonate [Moles/volume] in Serum or Plasma (mEq/L)
+459,LAB//227445//ng/mL,CK-MB (ng/mL)
+460,LAB//227456//g/dL,Albumin (g/dL)
+461,LAB//227457//K/uL,Platelet Count (K/uL)
+462,LAB//227464//mEq/L,Potassium Whole Blood (mEq/L)
+463,LAB//227465//sec,Prothrombin Time/PT (sec)
+464,LAB//227466//sec,Partial Thromboplastin Time/PTT (sec)
+465,LAB//227467//UNK,International Normalized Ratio/INR (unitless)
+466,LAB//227468//mg/dL,Fibrinogen (mg/dL)
+467,LAB//227471//UNK,Urine Specific Gravity (unitless)
+468,LAB//227517//UNK,Humidification Assessment 
+469,LAB//227565//UNK,Ventilator Tank #1 Assessment 
+470,LAB//227566//UNK,Ventilator Tank #2 Assessment 
+471,LAB//227687//UNK,History of Tobacco use
+472,LAB//227756//UNK,Multi Lumen Placement Confirmed by X-ray Assessment 
+473,LAB//227944//UNK,Side Rails Assessment 
+474,LAB//227945//UNK,Restraint Non-violent Assessment 
+475,LAB//227946//UNK,Restraint Ordered Non-violent Assessment 
+476,LAB//227947//UNK,Reason for Restraint Non-violent Assessment 
+477,LAB//227948//UNK,Restraint Device Non-violent Assessment 
+478,LAB//227949//UNK,Face to Face Eval Non-violent Assessment 
+479,LAB//227950//UNK,Restraint Location Assessment 
+480,LAB//227951//UNK,Circulation/Skin Integrity Assessment 
+481,LAB//227952//UNK,Position Change Assessment 
+482,LAB//227953//UNK,Range of Motion Assessment 
+483,LAB//227954//UNK,Status and Comfort Assessment 
+484,LAB//227955//UNK,Food and Fluid Assessment 
+485,LAB//227956//UNK,Urinal/Bedpan Assessment 
+486,LAB//227957//UNK,Signs of Injury from Intervention Assessment 
+487,LAB//227958//UNK,Less Restrictive Measures Assessment 
+488,LAB//227959//UNK,Restraints Evaluated Assessment 
+489,LAB//227960//UNK,Patient/Family Informed Assessment 
+490,LAB//227961//UNK,Side Rails Assessment 
+491,LAB//227968//UNK,All Medications Tolerated Assessment 
+492,LAB//227969//UNK,Safety Measures Assessment 
+493,LAB//228011//UNK,18 Gauge Phlebitis Scale Assessment 
+494,LAB//228012//UNK,18 Gauge Infiltration Scale Assessment 
+495,LAB//228013//UNK,20 Gauge Phlebitis Scale Assessment 
+496,LAB//228014//UNK,20 Gauge Infiltration Scale Assessment 
+497,LAB//228015//UNK,22 Gauge Phlebitis Scale Assessment 
+498,LAB//228016//UNK,22 Gauge Infiltration Scale Assessment 
+499,LAB//228096//UNK,Richmond agitation-sedation scale
+500,LAB//228099//UNK,18 Gauge Placed in Field Assessment 
+501,LAB//228100//UNK,20 Gauge Placed in Field Assessment 
+502,LAB//228101//UNK,22 Gauge Placed in Field Assessment 
+503,LAB//228236//UNK,Insulin pump
+504,LAB//228297//UNK,Daily Wake Up Deferred 
+505,LAB//228298//UNK,Daily Wake Up Assessment 
+506,LAB//228299//UNK,Goal Richmond-RAS Scale 
+507,LAB//228305//UNK,ST Segment Monitoring On 
+508,LAB//228307//UNK,GI #1 Tube Place Check Assessment 
+509,LAB//228308//UNK,GI #1 Tube Place Method Assessment 
+510,LAB//228332//UNK,Delirium Assessment 
+511,LAB//228334//UNK,CAM-ICU Altered Level of Consciousness 
+512,LAB//228337//UNK,CAM-ICU Mental Status Change 
+513,LAB//228393//UNK,Bath Assessment 
+514,LAB//228394//UNK,Orientation to Person 
+515,LAB//228395//UNK,Orientation to Place 
+516,LAB//228396//UNK,Orientation to Time 
+517,LAB//228397//UNK,Commands Response 
+518,LAB//228398//UNK,Commands Assessment 
+519,LAB//228399//UNK,Facial Droop Assessment 
+520,LAB//228400//UNK,Visual Field Cut Assessment 
+521,LAB//228401//UNK,Pronator Drift Assessment 
+522,LAB//228404//UNK,Motor Left Arm Assessment 
+523,LAB//228405//UNK,Motor Left Leg Assessment 
+524,LAB//228406//UNK,Motor Right Arm Assessment 
+525,LAB//228407//UNK,Motor Right Leg Assessment 
+526,LAB//228409//UNK,Strength Left Arm Assessment 
+527,LAB//228410//UNK,Strength Left Leg Assessment 
+528,LAB//228411//UNK,Strength Right Leg Assessment 
+529,LAB//228412//UNK,Strength Right Arm Assessment 
+530,LAB//228414//UNK,Speech Assessment 
+531,LAB//228415//UNK,Corneal Reflex Left Assessment 
+532,LAB//228416//UNK,Corneal Reflex Right Assessment 
+533,LAB//228496//UNK,Impaired Skin #1 Location Assessment 
+534,LAB//228529//UNK,Impaired Skin #1 Treatment Assessment 
+535,LAB//228559//UNK,Incision #1 Location Assessment 
+536,LAB//228571//UNK,Incision #1 Treatment Assessment 
+537,LAB//228594//UNK,Incision #1 Dressing Status Assessment 
+538,LAB//228600//UNK,Impaired Skin #1 Dressing Status Assessment 
+539,LAB//228648//UNK,Home Tube Feeding Assessment 
+540,LAB//228649//UNK,Pressure Ulcer Present Assessment 
+541,LAB//228868//UNK,Assistance Assessment 
+542,LAB//228879//UNK,Education Readiness/Motivation Assessment 
+543,LAB//228880//UNK,Education Existing Knowledge Assessment 
+544,LAB//228888//UNK,Pain NCP Expected Outcomes Assessment 
+545,LAB//228890//UNK,Pain NCP Interventions Assessment 
+546,LAB//228902//UNK,Altered Respiratory Status NCP Expected Outcomes Assessment 
+547,LAB//228905//UNK,Altered Respiratory Status NCP Interventions Assessment 
+548,LAB//228924//UNK,Impaired Tissue Perfusion NCP Expected Outcomes Assessment 
+549,LAB//228928//UNK,Impaired Tissue Perfusion NCP Interventions Assessment 
+550,LAB//228933//UNK,Post-op Care NCP Expected Outcomes Assessment 
+551,LAB//228937//UNK,Post-op Care NCP Interventions Assessment 
+552,LAB//228943//UNK,Infection NCP Expected Outcomes Assessment 
+553,LAB//228947//UNK,Infection NCP Interventions Assessment 
+554,LAB//229090//UNK,Altered Respiratory Status NCP Plan Revised Assessment 
+555,LAB//229091//UNK,Altered Respiratory Status NCP Problem Resolved Assessment 
+556,LAB//229100//UNK,Impaired Tissue Perfusion NCP Plan Revised Assessment 
+557,LAB//229101//UNK,Impaired Tissue Perfusion NCP Problem Resolved Assessment 
+558,LAB//229102//UNK,Infection NCP Plan Revised Assessment 
+559,LAB//229103//UNK,Infection NCP Problem Resolved Assessment 
+560,LAB//229106//UNK,Pain NCP Plan Revised Assessment 
+561,LAB//229107//UNK,Pain NCP Problem Resolved Assessment 
+562,LAB//229108//UNK,Post-op Care NCP Plan Revised Assessment 
+563,LAB//229109//UNK,Post-op Care NCP Problem Resolved Assessment 
+564,LAB//229300//cm,GI #1 Tube Mark (cm)
+565,LAB//229314//UNK,Ventilator Mode Hamilton Assessment 
+566,LAB//229321//UNK,Activity/Mobility JH-HLM Assessment 
+567,LAB//229322//UNK,Breathing Pattern/Effort Assessment 
+568,LAB//229323//UNK,Current Dyspnea Assessment 
+569,LAB//229325//UNK,CAM-ICU Inattention Assessment 
+570,LAB//229326//UNK,CAM-ICU Mental Status Change 
+571,LAB//229354//UNK,Foley Catheter Insertion Location 
+572,LAB//229356//%,Differential Immature Granulocytes (%)
+573,LAB//229357//K/uL,Absolute Neutrophil Count (K/uL)
+574,LAB//229358//K/uL,Absolute Lymphocyte Count (K/uL)
+575,LAB//229359//K/uL,Absolute Monocyte Count (K/uL)
+576,LAB//229360//K/uL,Absolute Eosinophil Count (K/uL)
+577,LAB//229361//K/uL,Absolute Basophil Count (K/uL)
+578,LAB//229369//UNK,Acuity Workload Question 1 Assessment 
+579,LAB//229370//UNK,Acuity Workload Question 2 Assessment 
+580,LAB//229381//UNK,Orientation Assessment 
+581,LAB//229384//UNK,Tongue Assessment 
+582,LAB//229385//UNK,Shoulder Shrug Assessment 
+583,LAB//229535//UNK,Line Type Assessment 
+584,LAB//229600//UNK,CAUTI Info Given Assessment 
+585,LAB//229681//UNK,Indwelling Urinary Catheter Care Assessment 
+586,LAB//229685//UNK,Valuables Checklist Assessment 
+587,LAB//229687//UNK,Pain assessment
+588,LAB//229858//UNK,Therapeutic Bed Assessment 
+589,LAB//50802//mEq/L,Base excess in Blood by calculation (mEq/L)
+590,LAB//50803//mEq/L,Bicarbonate [Moles/volume] in Blood (mEq/L)
+591,LAB//50804//mEq/L,"Carbon dioxide, total [Moles/volume] in Blood by calculation (mEq/L)"
+592,LAB//50806//mEq/L,Chloride [Moles/volume] in Blood (mEq/L)
+593,LAB//50808//mmol/L,Calcium.ionized [Moles/volume] in Blood (mmol/L)
+594,LAB//50809//mg/dL,Glucose [Mass/volume] in Blood (mg/dL)
+595,LAB//50810//%,Hematocrit of Blood by Estimated (%)
+596,LAB//50811//g/dL,Hemoglobin Blood Gas (g/dL)
+597,LAB//50812//UNK,Intubated
+598,LAB//50813//mmol/L,Lactate [Moles/volume] in Blood (mmol/L)
+599,LAB//50816//%,Inhaled oxygen concentration (%)
+600,LAB//50817//%,Oxygen saturation in Blood (%)
+601,LAB//50818//mm Hg,Carbon dioxide in Blood (mm Hg)
+602,LAB//50819//UNK,Positive end expiratory pressure setting Ventilator
+603,LAB//50820//units,pH of Blood (units)
+604,LAB//50821//mm Hg,Oxygen in Blood (mm Hg)
+605,LAB//50822//mEq/L,Potassium [Moles/volume] in Blood (mEq/L)
+606,LAB//50824//mEq/L,Sodium [Moles/volume] in Blood (mEq/L)
+607,LAB//50825//UNK,Blood Temperature Blood Gas
+608,LAB//50826//UNK,Tidal volume setting Ventilator
+609,LAB//50827//UNK,Ventilation rate by Carbon dioxide measurement
+610,LAB//50828//UNK,Ventilation mode Ventilator
+611,LAB//50852//%,Hemoglobin A1c/Hemoglobin.total in Blood (%)
+612,LAB//50853//ng/mL,25-hydroxyvitamin D3 [Mass/volume] in Serum or Plasma (ng/mL)
+613,LAB//50856//ug/mL,Acetaminophen [Mass/volume] in Serum or Plasma (ug/mL)
+614,LAB//50861//IU/L,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma (IU/L)
+615,LAB//50862//g/dL,Albumin [Mass/volume] in Serum or Plasma (g/dL)
+616,LAB//50863//IU/L,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma (IU/L)
+617,LAB//50867//IU/L,Amylase [Enzymatic activity/volume] in Serum or Plasma (IU/L)
+618,LAB//50868//mEq/L,Anion gap 4 in Serum or Plasma (mEq/L)
+619,LAB//50873//UNK,Nuclear Ab [Presence] in Serum
+620,LAB//50878//IU/L,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma (IU/L)
+621,LAB//50879//UNK,"Barbiturates [Presence] in Serum, Plasma or Blood"
+622,LAB//50880//UNK,Benzodiazepines [Presence] in Blood
+623,LAB//50882//mEq/L,Bicarbonate [Moles/volume] in Serum or Plasma (mEq/L)
+624,LAB//50883//mg/dL,Bilirubin.direct [Mass/volume] in Serum or Plasma (mg/dL)
+625,LAB//50884//mg/dL,Bilirubin.indirect [Mass/volume] in Serum or Plasma (mg/dL)
+626,LAB//50885//mg/dL,Bilirubin.total [Mass/volume] in Serum or Plasma (mg/dL)
+627,LAB//50887//UNK,Blue Top Hold
+628,LAB//50889//mg/L,C reactive protein [Mass/volume] in Serum or Plasma (mg/L)
+629,LAB//50893//mg/dL,Calcium [Mass/volume] in Serum or Plasma (mg/dL)
+630,LAB//50902//mEq/L,Chloride [Moles/volume] in Serum or Plasma (mEq/L)
+631,LAB//50903//Ratio,Cholesterol.total/Cholesterol in HDL [Mass Ratio] in Serum or Plasma (Ratio)
+632,LAB//50904//mg/dL,Cholesterol in HDL [Mass/volume] in Serum or Plasma (mg/dL)
+633,LAB//50905//mg/dL,Cholesterol in LDL [Mass/volume] in Serum or Plasma by calculation (mg/dL)
+634,LAB//50906//mg/dL,Cholesterol in LDL [Mass/volume] in Serum or Plasma by Direct assay (mg/dL)
+635,LAB//50907//mg/dL,Cholesterol [Mass/volume] in Serum or Plasma (mg/dL)
+636,LAB//50909//ug/dL,Cortisol [Mass/volume] in Serum or Plasma (ug/dL)
+637,LAB//50910//IU/L,Creatine kinase [Enzymatic activity/volume] in Serum or Plasma (IU/L)
+638,LAB//50911//ng/mL,Creatine kinase.MB [Mass/volume] in Serum or Plasma (ng/mL)
+639,LAB//50912//mg/dL,Creatinine [Mass/volume] in Serum or Plasma (mg/dL)
+640,LAB//50915//ng/mL,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma (ng/mL)
+641,LAB//50919//UNK,EDTA Hold
+642,LAB//50920//UNK,"Glomerular filtration rate/1.73 sq M.predicted [Volume Rate/Area] in Serum, Plasma or Blood by Creatinine-based formula (MDRD)"
+643,LAB//50922//mg/dL,Ethanol [Mass/volume] in Blood (mg/dL)
+644,LAB//50924//ng/mL,Ferritin [Mass/volume] in Serum or Plasma (ng/mL)
+645,LAB//50925//ng/mL,Folate [Mass/volume] in Serum or Plasma (ng/mL)
+646,LAB//50930//g/dL,Globulin [Mass/volume] in Serum (g/dL)
+647,LAB//50931//mg/dL,Glucose [Mass/volume] in Serum or Plasma (mg/dL)
+648,LAB//50933//UNK,Green Top Hold (plasma)
+649,LAB//50934//UNK,Index H Blood Chemistry
+650,LAB//50935//mg/dL,Haptoglobin [Mass/volume] in Serum or Plasma (mg/dL)
+651,LAB//50940//N/A,Hepatitis B virus surface Ab [Presence] in Serum 
+652,LAB//50940//UNK,Hepatitis B virus surface Ab [Presence] in Serum
+653,LAB//50941//N/A,Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay 
+654,LAB//50941//UNK,Hepatitis B virus surface Ag [Presence] in Serum or Plasma by Immunoassay
+655,LAB//50942//N/A,Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay 
+656,LAB//50942//UNK,Hepatitis B virus core Ab [Presence] in Serum or Plasma by Immunoassay
+657,LAB//50943//N/A,Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay 
+658,LAB//50943//UNK,Hepatitis C virus Ab [Presence] in Serum or Plasma by Immunoassay
+659,LAB//50946//mIU/mL,Choriogonadotropin [Units/volume] in Serum or Plasma (mIU/mL)
+660,LAB//50947//UNK,Index I Blood Chemistry
+661,LAB//50949//mg/dL,IgA [Mass/volume] in Serum or Plasma (mg/dL)
+662,LAB//50950//mg/dL,IgG [Mass/volume] in Serum or Plasma (mg/dL)
+663,LAB//50951//mg/dL,IgM [Mass/volume] in Serum or Plasma (mg/dL)
+664,LAB//50952//ug/dL,Iron [Mass/volume] in Serum or Plasma (ug/dL)
+665,LAB//50953//ug/dL,Iron binding capacity [Mass/volume] in Serum or Plasma (ug/dL)
+666,LAB//50954//IU/L,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma (IU/L)
+667,LAB//50955//UNK,Light Green Top Hold
+668,LAB//50956//IU/L,Lipase [Enzymatic activity/volume] in Serum or Plasma (IU/L)
+669,LAB//50960//mg/dL,Magnesium [Mass/volume] in Serum or Plasma (mg/dL)
+670,LAB//50963//pg/mL,Natriuretic peptide.B prohormone N-Terminal [Mass/volume] in Serum or Plasma (pg/mL)
+671,LAB//50964//mOsm/kg,Osmolality of Serum or Plasma (mOsm/kg)
+672,LAB//50965//pg/mL,Parathyrin.intact [Mass/volume] in Serum or Plasma (pg/mL)
+673,LAB//50970//mg/dL,Phosphate [Mass/volume] in Serum or Plasma (mg/dL)
+674,LAB//50971//mEq/L,Potassium [Moles/volume] in Serum or Plasma (mEq/L)
+675,LAB//50974//ng/mL,Prostate specific Ag [Mass/volume] in Serum or Plasma (ng/mL)
+676,LAB//50975//UNK,Protein Fractions [Interpretation] in Serum or Plasma by Electrophoresis
+677,LAB//50976//g/dL,Protein [Mass/volume] in Serum or Plasma (g/dL)
+678,LAB//50979//UNK,Red Top Hold
+679,LAB//50981//mg/dL,Salicylates [Mass/volume] in Serum or Plasma (mg/dL)
+680,LAB//50983//mEq/L,Sodium [Moles/volume] in Serum or Plasma (mEq/L)
+681,LAB//50993//uIU/mL,Thyrotropin [Units/volume] in Serum or Plasma (uIU/mL)
+682,LAB//50994//ug/dL,Thyroxine (T4) [Mass/volume] in Serum or Plasma (ug/dL)
+683,LAB//50995//ng/dL,Thyroxine (T4) free [Mass/volume] in Serum or Plasma (ng/dL)
+684,LAB//50996//units,Tissue transglutaminase IgA Ab [Units/volume] in Serum (units)
+685,LAB//50998//mg/dL,Transferrin [Mass/volume] in Serum or Plasma (mg/dL)
+686,LAB//50999//N/A,Tricyclic antidepressants [Presence] in Blood by Screen method 
+687,LAB//50999//UNK,Tricyclic antidepressants [Presence] in Blood by Screen method
+688,LAB//51000//mg/dL,Triglyceride [Mass/volume] in Serum or Plasma (mg/dL)
+689,LAB//51003//ng/mL,Troponin T.cardiac [Mass/volume] in Serum or Plasma (ng/mL)
+690,LAB//51006//mg/dL,Urea nitrogen [Mass/volume] in Serum or Plasma (mg/dL)
+691,LAB//51007//mg/dL,Urate [Mass/volume] in Serum or Plasma (mg/dL)
+692,LAB//51009//ug/mL,Vancomycin [Mass/volume] in Serum or Plasma (ug/mL)
+693,LAB//51010//pg/mL,Cobalamin (Vitamin B12) [Mass/volume] in Serum or Plasma (pg/mL)
+694,LAB//51069//mg/dL,Microalbumin [Mass/volume] in Urine (mg/dL)
+695,LAB//51070//mg/g,Microalbumin/Creatinine [Mass Ratio] in 24 hour Urine (mg/g)
+696,LAB//51071//N/A,Amphetamine [Presence] in Urine by Screen method 
+697,LAB//51071//UNK,Amphetamine [Presence] in Urine by Screen method
+698,LAB//51074//N/A,Barbiturates [Presence] in Urine by Screen method 
+699,LAB//51074//UNK,Barbiturates [Presence] in Urine by Screen method
+700,LAB//51075//N/A,Benzodiazepines [Presence] in Urine by Screen method 
+701,LAB//51075//UNK,Benzodiazepines [Presence] in Urine by Screen method
+702,LAB//51078//mEq/L,Chloride [Moles/volume] in Urine (mEq/L)
+703,LAB//51079//N/A,Cocaine [Presence] in Urine 
+704,LAB//51079//UNK,Cocaine [Presence] in Urine
+705,LAB//51082//mg/dL,Creatinine [Mass/volume] in Urine (mg/dL)
+706,LAB//51085//+/-,Choriogonadotropin (pregnancy test) [Presence] in Urine (+/-)
+707,LAB//51085//N/A,Choriogonadotropin (pregnancy test) [Presence] in Urine 
+708,LAB//51087//UNK,Collection duration of Urine
+709,LAB//51090//N/A,Methadone [Presence] in Urine 
+710,LAB//51090//UNK,Methadone [Presence] in Urine
+711,LAB//51092//N/A,Opiates [Presence] in Urine by Screen method 
+712,LAB//51092//UNK,Opiates [Presence] in Urine by Screen method
+713,LAB//51093//mOsm/kg,Osmolality of Urine (mOsm/kg)
+714,LAB//51097//mEq/L,Potassium [Moles/volume] in Urine (mEq/L)
+715,LAB//51099//mg/mg,Protein/Creatinine [Mass Ratio] in Urine (mg/mg)
+716,LAB//51100//mEq/L,Sodium [Moles/volume] in Urine (mEq/L)
+717,LAB//51102//mg/dL,Protein [Mass/volume] in Urine (mg/dL)
+718,LAB//51103//UNK,Uhold
+719,LAB//51104//mg/dL,Urea nitrogen [Mass/volume] in Urine (mg/dL)
+720,LAB//51107//UNK,"Urine tube, held"
+721,LAB//51133//K/uL,Lymphocytes [#/volume] in Blood by Automated count (K/uL)
+722,LAB//51137//N/A,Anisocytosis [Presence] in Blood 
+723,LAB//51137//UNK,Anisocytosis [Presence] in Blood
+724,LAB//51143//%,Variant lymphocytes/100 leukocytes in Blood (%)
+725,LAB//51144//%,Band form neutrophils/100 leukocytes in Blood (%)
+726,LAB//51146//%,Basophils/100 leukocytes in Blood by Automated count (%)
+727,LAB//51200//%,Eosinophils/100 leukocytes in Blood by Automated count (%)
+728,LAB//51214//mg/dL,Fibrinogen [Mass/volume] in Platelet poor plasma by Coagulation assay (mg/dL)
+729,LAB//51221//%,Hematocrit of Blood by Automated count (%)
+730,LAB//51222//g/dL,Hemoglobin Hematology (g/dL)
+731,LAB//51233//N/A,Hypochromia [Presence] in Blood by Light microscopy 
+732,LAB//51233//UNK,Hypochromia [Presence] in Blood by Light microscopy
+733,LAB//51237//UNK,INR in Platelet poor plasma by Coagulation assay
+734,LAB//51244//%,Lymphocytes/100 leukocytes in Blood by Automated count (%)
+735,LAB//51246//UNK,Macrocytes [Presence] in Blood
+736,LAB//51248//pg,MCH [Entitic mass] by Automated count (pg)
+737,LAB//51249//%,MCHC by Automated count (%)
+738,LAB//51249//g/dL,MCHC [Mass/volume] by Automated count (g/dL)
+739,LAB//51250//fL,MCV [Entitic volume] by Automated count (fL)
+740,LAB//51251//%,Metamyelocytes/100 leukocytes in Blood (%)
+741,LAB//51252//UNK,Microcytes [Presence] in Blood
+742,LAB//51254//%,Monocytes/100 leukocytes in Blood by Automated count (%)
+743,LAB//51255//%,Myelocytes/100 leukocytes in Blood (%)
+744,LAB//51256//%,Neutrophils/100 leukocytes in Blood by Automated count (%)
+745,LAB//51257//%,Nucleated erythrocytes/100 leukocytes [Ratio] in Blood by Automated count (%)
+746,LAB//51260//UNK,Ovalocytes [Presence] in Blood by Light microscopy
+747,LAB//51265//K/uL,Platelets [#/volume] in Blood by Automated count (K/uL)
+748,LAB//51266//N/A,Platelet adequacy [Presence] in Blood by Light microscopy 
+749,LAB//51266//UNK,Platelet adequacy [Presence] in Blood by Light microscopy
+750,LAB//51267//N/A,Poikilocytosis [Presence] in Blood by Light microscopy 
+751,LAB//51267//UNK,Poikilocytosis [Presence] in Blood by Light microscopy
+752,LAB//51268//N/A,Polychromasia [Presence] in Blood by Light microscopy 
+753,LAB//51268//UNK,Polychromasia [Presence] in Blood by Light microscopy
+754,LAB//51274//sec,Prothrombin time (PT) (sec)
+755,LAB//51275//sec,aPTT in Platelet poor plasma by Coagulation assay (sec)
+756,LAB//51277//%,Erythrocyte distribution width [Ratio] by Automated count (%)
+757,LAB//51279//m/uL,Erythrocytes [#/volume] in Blood by Automated count (m/uL)
+758,LAB//51282//m/uL,Reticulocytes [#/volume] in Blood (m/uL)
+759,LAB//51283//%,Reticulocytes [#/volume] in Blood by Automated count (%)
+760,LAB//51288//mm/hr,Erythrocyte sedimentation rate by Westergren method (mm/hr)
+761,LAB//51296//UNK,Dacrocytes [Presence] in Blood by Light microscopy
+762,LAB//51301//K/uL,Leukocytes [#/volume] in Blood by Automated count (K/uL)
+763,LAB//51462//UNK,Crystals.amorphous [Presence] in Urine sediment by Light microscopy
+764,LAB//51463///hpf,Bacteria [#/area] in Urine sediment by Microscopy high power field (hpf)
+765,LAB//51463//UNK,Bacteria [#/area] in Urine sediment by Microscopy high power field
+766,LAB//51464//N/A,Bilirubin.total [Presence] in Urine by Test strip 
+767,LAB//51464//mg/dL,Bilirubin.total [Presence] in Urine by Test strip (mg/dL)
+768,LAB//51466//N/A,Blood [Presence] in Urine by Visual 
+769,LAB//51466//UNK,Blood [Presence] in Urine by Visual
+770,LAB//51476//#/hpf,Epithelial cells [#/area] in Urine sediment by Microscopy high power field (#/hpf)
+771,LAB//51478//mg/dL,Glucose [Mass/volume] in Urine by Test strip (mg/dL)
+772,LAB//51479//#/lpf,Granular casts [#/area] in Urine sediment by Microscopy low power field (#/lpf)
+773,LAB//51482//#/lpf,Hyaline casts [#/area] in Urine sediment by Microscopy low power field (#/lpf)
+774,LAB//51484//mg/dL,Ketones [Mass/volume] in Urine by Test strip (mg/dL)
+775,LAB//51486//N/A,Leukocytes [Presence] in Urine sediment by Light microscopy 
+776,LAB//51486//UNK,Leukocytes [Presence] in Urine sediment by Light microscopy
+777,LAB//51487//N/A,Nitrite [Presence] in Urine by Test strip 
+778,LAB//51487//UNK,Nitrite [Presence] in Urine by Test strip
+779,LAB//51491//units,pH of Urine by Test strip (units)
+780,LAB//51492//mg/dL,Protein [Mass/volume] in Urine by Test strip (mg/dL)
+781,LAB//51493//#/hpf,Erythrocytes [#/area] in Urine sediment by Microscopy high power field (#/hpf)
+782,LAB//51498//,Specific gravity of Urine by Test strip
+783,LAB//51501//#/hpf,Transitional cells [#/area] in Urine sediment by Microscopy high power field (#/hpf)
+784,LAB//51506//N/A,Appearance of Urine 
+785,LAB//51506//UNK,Appearance of Urine
+786,LAB//51508//N/A,Color of Urine 
+787,LAB//51508//UNK,Color of Urine
+788,LAB//51512///hpf,Mucus [Presence] in Urine sediment by Light microscopy (hpf)
+789,LAB//51512//UNK,Mucus [Presence] in Urine sediment by Light microscopy
+790,LAB//51514//mg/dL,Urobilinogen [Mass/volume] in Urine by Test strip (mg/dL)
+791,LAB//51516//#/hpf,Leukocytes [#/area] in Urine sediment by Microscopy high power field (#/hpf)
+792,LAB//51519///hpf,Yeast [#/area] in Urine sediment by Microscopy high power field (hpf)
+793,LAB//51519//UNK,Yeast [#/area] in Urine sediment by Microscopy high power field
+794,LAB//51564//UNK,ARCH-1
+795,LAB//51613//mg/dL,Glucose mean value [Mass/volume] in Blood Estimated from glycated hemoglobin (mg/dL)
+796,LAB//51657//UNK,HPE1
+797,LAB//51658//UNK,HPE2
+798,LAB//51659//UNK,HPE3
+799,LAB//51663//UNK,HPE7
+800,LAB//51678//UNK,Index L Blood Chemistry
+801,LAB//51706//UNK,Problem Specimen
+802,LAB//51732//UNK,STX1
+803,LAB//51733//UNK,STX2
+804,LAB//51734//UNK,STX3
+805,LAB//51737//UNK,STX6
+806,LAB//51752//UNK,Voided Specimen
+807,LAB//51865//UNK,Influenza virus A RNA [Presence] in Specimen by NAA with probe detection
+808,LAB//51873//UNK,Influenza virus B RNA [Presence] in Specimen by NAA with probe detection
+809,LAB//51989//N/A,oxyCODONE [Presence] in Urine 
+810,LAB//52004//UNK,UTX1
+811,LAB//52005//UNK,UTX2
+812,LAB//52006//UNK,UTX3
+813,LAB//52007//UNK,UTX4
+814,LAB//52008//UNK,UTX5
+815,LAB//52009//UNK,UTX6
+816,LAB//52010//UNK,UTX7
+817,LAB//52033//UNK,Specimen type
+818,LAB//52069//K/uL,Basophils [#/volume] in Blood by Automated count (K/uL)
+819,LAB//52073//K/uL,Eosinophils [#/volume] in Blood by Automated count (K/uL)
+820,LAB//52074//K/uL,Monocytes [#/volume] in Blood by Automated count (K/uL)
+821,LAB//52075//K/uL,Neutrophils [#/volume] in Blood by Automated count (K/uL)
+822,LAB//52135//%,Immature granulocytes/100 leukocytes in Blood (%)
+823,LAB//52171//N/A,Erythrocyte morphology finding [Identifier] in Blood 
+824,LAB//52172//fL,Erythrocyte distribution width [Entitic volume] by Automated count (fL)
+825,LAB//52425//UNK,XUCU
+826,LAB//53153//N/A,HIV Screen Blood Chemistry
+827,LAB//53153//UNK,HIV Screen Blood Chemistry
+828,LAB//53161//mL/min/1.73m2,Estimated GFR CKD-EPI Refit (mL/min/1.73m2)
+829,MEDICATION//Acetaminophen IV//Administered,acetaminophen iv administered
+830,MEDICATION//Acetaminophen//Administered,acetaminophen administered
+831,MEDICATION//Acetaminophen//Not Given,acetaminophen not given
+832,MEDICATION//Albuterol 0.083% Neb Soln//Administered,albuterol 0.083% neb soln administered
+833,MEDICATION//Aspirin//Administered,aspirin administered
+834,MEDICATION//Atorvastatin//Administered,atorvastatin administered
+835,MEDICATION//Azithromycin//Administered,azithromycin administered
+836,MEDICATION//Bisacodyl//Administered,bisacodyl administered
+837,MEDICATION//Calcium Carbonate//Administered,calcium carbonate administered
+838,MEDICATION//CeFAZolin//Administered,cefazolin administered
+839,MEDICATION//CefTRIAXone//Administered,ceftriaxone administered
+840,MEDICATION//CefTRIAXone//Started,ceftriaxone started
+841,MEDICATION//CefTRIAXone//Stopped,ceftriaxone stopped
+842,MEDICATION//CefePIME//Administered,cefepime administered
+843,MEDICATION//Ciprofloxacin HCl//Administered,ciprofloxacin hcl administered
+844,MEDICATION//DiphenhydrAMINE//Administered,diphenhydramine administered
+845,MEDICATION//Docusate Sodium//Administered,docusate sodium administered
+846,MEDICATION//Docusate Sodium//Not Given,docusate sodium not given
+847,MEDICATION//Enoxaparin Sodium//Administered,enoxaparin sodium administered
+848,MEDICATION//Famotidine//Administered,famotidine administered
+849,MEDICATION//Fentanyl Citrate//Administered,fentanyl citrate administered
+850,MEDICATION//FoLIC Acid//Administered,folic acid administered
+851,MEDICATION//Furosemide//Administered,furosemide administered
+852,MEDICATION//Gabapentin//Administered,gabapentin administered
+853,MEDICATION//HYDROmorphone (Dilaudid)//Administered,hydromorphone (dilaudid) administered
+854,MEDICATION//Heparin Flush (10 units/ml)//Flushed,Heparin flush (10 units/ml) flushed
+855,MEDICATION//Heparin//Administered,heparin administered
+856,MEDICATION//Heparin//Confirmed,heparin confirmed
+857,MEDICATION//Heparin//Not Given,heparin not given
+858,MEDICATION//Heparin//Started,heparin started
+859,MEDICATION//Heparin//Stopped,heparin stopped
+860,MEDICATION//HydrALAZINE//Administered,hydralazine administered
+861,MEDICATION//Ibuprofen//Administered,ibuprofen administered
+862,MEDICATION//Influenza Vaccine Quadrivalent//Not Given,influenza vaccine quadrivalent not given
+863,MEDICATION//Insulin//Administered,insulin administered
+864,MEDICATION//Insulin//Not Given,insulin not given
+865,MEDICATION//Insulin//Not Given per Sliding Scale,insulin not given per sliding scale
+866,MEDICATION//Ipratropium-Albuterol Neb//Administered,ipratropium-albuterol neb administered
+867,MEDICATION//Ketorolac//Administered,ketorolac administered
+868,MEDICATION//LORazepam//Administered,lorazepam administered
+869,MEDICATION//Levothyroxine Sodium//Administered,levothyroxine sodium administered
+870,MEDICATION//Lidocaine 5% Patch//Applied,lidocaine 5% patch applied
+871,MEDICATION//Lidocaine 5% Patch//Assessed,lidocaine 5% patch assessed
+872,MEDICATION//Lidocaine 5% Patch//Removed,lidocaine 5% patch removed
+873,MEDICATION//Lisinopril//Administered,lisinopril administered
+874,MEDICATION//Lorazepam//Administered,lorazepam administered
+875,MEDICATION//Magnesium Oxide//Administered,magnesium oxide administered
+876,MEDICATION//Magnesium Sulfate Replacement (Critical Care and Oncology)//Administered,magnesium sulfate replacement (critical care and oncology) administered
+877,MEDICATION//Magnesium Sulfate//Administered,magnesium sulfate administered
+878,MEDICATION//Metoclopramide//Administered,metoclopramide administered
+879,MEDICATION//Metoprolol Succinate XL//Administered,metoprolol succinate xl administered
+880,MEDICATION//Metoprolol Tartrate//Administered,metoprolol tartrate administered
+881,MEDICATION//Metoprolol Tartrate//Not Given,metoprolol tartrate not given
+882,MEDICATION//MetroNIDAZOLE//Administered,metronidazole administered
+883,MEDICATION//Morphine Sulfate//Administered,morphine sulfate administered
+884,MEDICATION//Multivitamins//Administered,multivitamins administered
+885,MEDICATION//Neutra-Phos//Administered,neutra-phos administered
+886,MEDICATION//Omeprazole//Administered,omeprazole administered
+887,MEDICATION//Ondansetron//Administered,ondansetron administered
+888,MEDICATION//OxyCODONE (Immediate Release)//Administered,oxycodone (immediate release) administered
+889,MEDICATION//OxyCODONE (Immediate Release)//UNK,oxycodone (immediate release) administered
+890,MEDICATION//OxycoDONE (Immediate Release) //Administered,oxycodone (immediate release) administered
+891,MEDICATION//Pantoprazole//Administered,pantoprazole administered
+892,MEDICATION//Phosphorus//Administered,phosphorus administered
+893,MEDICATION//Polyethylene Glycol//Administered,polyethylene glycol administered
+894,MEDICATION//Polyethylene Glycol//Not Given,polyethylene glycol not given
+895,MEDICATION//Potassium Chloride//Administered,potassium chloride administered
+896,MEDICATION//Potassium Chloride//UNK,potassium chloride administered
+897,MEDICATION//PredniSONE//Administered,prednisone administered
+898,MEDICATION//Propofol//Started,propofol started
+899,MEDICATION//Ramelteon//Administered,ramelteon administered
+900,MEDICATION//START//Acetaminophen,acetaminophen started
+901,MEDICATION//START//Acetaminophen IV,acetaminophen iv started
+902,MEDICATION//START//Albuterol 0.083% Neb Soln,albuterol 0.083% neb soln started
+903,MEDICATION//START//Albuterol Inhaler,albuterol inhaler started
+904,MEDICATION//START//Aluminum-Magnesium Hydrox.-Simethicone,aluminum-magnesium hydrox.-simethicone started
+905,MEDICATION//START//Amlodipine,amlodipine started
+906,MEDICATION//START//Aspirin,aspirin started
+907,MEDICATION//START//Aspirin EC,aspirin ec started
+908,MEDICATION//START//Atorvastatin,atorvastatin started
+909,MEDICATION//START//Azithromycin,azithromycin started
+910,MEDICATION//START//Bisacodyl,bisacodyl started
+911,MEDICATION//START//Calcium Carbonate,calcium carbonate started
+912,MEDICATION//START//Calcium Gluconate,calcium gluconate started
+913,MEDICATION//START//Calcium Gluconate sliding scale (Critical Care-Ionized calcium),calcium gluconate sliding scale (critical care-ionized calcium) started
+914,MEDICATION//START//CeFAZolin,cefazolin started
+915,MEDICATION//START//CefTRIAXone,ceftriaxone started
+916,MEDICATION//START//CefazoLIN,cefazolin started
+917,MEDICATION//START//CefePIME,cefepime started
+918,MEDICATION//START//CeftriaXONE,ceftriaxone started
+919,MEDICATION//START//Chlorhexidine Gluconate 0.12% Oral Rinse,chlorhexidine gluconate 0.12% oral rinse started
+920,MEDICATION//START//Ciprofloxacin,ciprofloxacin started
+921,MEDICATION//START//Ciprofloxacin HCl,ciprofloxacin hcl started
+922,MEDICATION//START//Clopidogrel,clopidogrel started
+923,MEDICATION//START//Dexamethasone,dexamethasone started
+924,MEDICATION//START//Dextrose 50%,dextrose 50% started
+925,MEDICATION//START//Diazepam,diazepam started
+926,MEDICATION//START//DiphenhydrAMINE,diphenhydramine started
+927,MEDICATION//START//Docusate Sodium,docusate sodium started
+928,MEDICATION//START//Docusate Sodium (Liquid),docusate sodium (liquid) started
+929,MEDICATION//START//Enoxaparin (Prophylaxis),enoxaparin (prophylaxis) started
+930,MEDICATION//START//Enoxaparin Sodium,enoxaparin sodium started
+931,MEDICATION//START//Famotidine,famotidine started
+932,MEDICATION//START//Fentanyl Citrate,fentanyl citrate started
+933,MEDICATION//START//Ferrous Sulfate,ferrous sulfate started
+934,MEDICATION//START//FoLIC Acid,folic acid started
+935,MEDICATION//START//Furosemide,furosemide started
+936,MEDICATION//START//Gabapentin,gabapentin started
+937,MEDICATION//START//Glucagon,glucagon started
+938,MEDICATION//START//Glucose Gel,glucose gel started
+939,MEDICATION//START//HYDROmorphone (Dilaudid),hydromorphone (dilaudid) started
+940,MEDICATION//START//Haloperidol,haloperidol started
+941,MEDICATION//START//Heparin,heparin started
+942,MEDICATION//START//Heparin Flush (10 units/ml),heparin flush (10 units/ml) started
+943,MEDICATION//START//HydrALAZINE,hydralazine started
+944,MEDICATION//START//HydrALAzine,hydralazine started
+945,MEDICATION//START//Hydrochlorothiazide,hydrochlorothiazide started
+946,MEDICATION//START//Ibuprofen,ibuprofen started
+947,MEDICATION//START//Influenza Vaccine Quadrivalent,influenza vaccine quadrivalent started
+948,MEDICATION//START//Influenza Virus Vaccine,influenza virus vaccine started
+949,MEDICATION//START//Insulin,insulin started
+950,MEDICATION//START//Ipratropium Bromide Neb,ipratropium bromide neb started
+951,MEDICATION//START//Ipratropium-Albuterol Neb,ipratropium-albuterol neb started
+952,MEDICATION//START//Ketorolac,ketorolac started
+953,MEDICATION//START//LORazepam,lorazepam started
+954,MEDICATION//START//Labetalol,labetalol started
+955,MEDICATION//START//Lactulose,lactulose started
+956,MEDICATION//START//Levofloxacin,levofloxacin started
+957,MEDICATION//START//Levothyroxine Sodium,levothyroxine sodium started
+958,MEDICATION//START//Lidocaine 1%,lidocaine 1% started
+959,MEDICATION//START//Lidocaine 1% (For PICC/Midline Insertions),lidocaine 1% (for picc/midline insertions) started
+960,MEDICATION//START//Lidocaine 5% Patch,lidocaine 5% patch started
+961,MEDICATION//START//Lidocaine Jelly 2% (Glydo),lidocaine jelly 2% (glydo) started
+962,MEDICATION//START//Lisinopril,lisinopril started
+963,MEDICATION//START//Lorazepam,lorazepam started
+964,MEDICATION//START//Magnesium Oxide,magnesium oxide started
+965,MEDICATION//START//Magnesium Sulfate,magnesium sulfate started
+966,MEDICATION//START//Magnesium Sulfate Replacement (Critical Care and Oncology),magnesium sulfate replacement (critical care and oncology) started
+967,MEDICATION//START//MetRONIDAZOLE (FLagyl),metronidazole (flagyl) started
+968,MEDICATION//START//Metoclopramide,metoclopramide started
+969,MEDICATION//START//Metoprolol Succinate XL,metoprolol succinate xl started
+970,MEDICATION//START//Metoprolol Tartrate,metoprolol tartrate started
+971,MEDICATION//START//MetroNIDAZOLE,metronidazole started
+972,MEDICATION//START//Midazolam,midazolam started
+973,MEDICATION//START//Milk of Magnesia,milk of magnesia started
+974,MEDICATION//START//Morphine Sulfate,morphine sulfate started
+975,MEDICATION//START//Multivitamins,multivitamins started
+976,MEDICATION//START//Multivitamins W/minerals,multivitamins w/minerals started
+977,MEDICATION//START//Neutra-Phos,neutra-phos started
+978,MEDICATION//START//Nicotine Patch,nicotine patch started
+979,MEDICATION//START//Nitroglycerin,nitroglycerin started
+980,MEDICATION//START//Omeprazole,omeprazole started
+981,MEDICATION//START//Ondansetron,ondansetron started
+982,MEDICATION//START//OxyCODONE (Immediate Release),oxycodone (immediate release) started
+983,MEDICATION//START//OxycoDONE (Immediate Release),oxycodone (immediate release) started
+984,MEDICATION//START//Oxycodone-Acetaminophen,oxycodone-acetaminophen started
+985,MEDICATION//START//PHENYLEPHrine,phenylephrine started
+986,MEDICATION//START//PNEUMOcoccal 23-valent polysaccharide vaccine,pneumococcal 23-valent polysaccharide vaccine started
+987,MEDICATION//START//Pantoprazole,pantoprazole started
+988,MEDICATION//START//Phosphorus,phosphorus started
+989,MEDICATION//START//Phytonadione,phytonadione started
+990,MEDICATION//START//Piperacillin-Tazobactam,piperacillin-tazobactam started
+991,MEDICATION//START//Pneumococcal Vac Polyvalent,pneumococcal vac polyvalent started
+992,MEDICATION//START//Polyethylene Glycol,polyethylene glycol started
+993,MEDICATION//START//Potassium Chloride,potassium chloride started
+994,MEDICATION//START//Potassium Chloride (Powder),potassium chloride (powder) started
+995,MEDICATION//START//Potassium Chloride Replacement (Critical Care and Oncology),potassium chloride replacement (critical care and oncology) started
+996,MEDICATION//START//Potassium Chloride Replacement (Critical Care and Oncology),potassium chloride replacement (critical care and oncology) started
+997,MEDICATION//START//Potassium Phosphate,potassium phosphate started
+998,MEDICATION//START//PredniSONE,prednisone started
+999,MEDICATION//START//Prochlorperazine,prochlorperazine started
+1000,MEDICATION//START//Propofol,propofol started
+1001,MEDICATION//START//Ramelteon,ramelteon started
+1002,MEDICATION//START//Ranitidine,ranitidine started
+1003,MEDICATION//START//Sarna Lotion,sarna lotion started
+1004,MEDICATION//START//Senna,senna started
+1005,MEDICATION//START//Simethicone,simethicone started
+1006,MEDICATION//START//Simvastatin,simvastatin started
+1007,MEDICATION//START//Sodium Chloride 0.9%  Flush,sodium chloride 0.9% flush started
+1008,MEDICATION//START//Sodium Phosphate,sodium phosphate started
+1009,MEDICATION//START//Tamsulosin,tamsulosin started
+1010,MEDICATION//START//Thiamine,thiamine started
+1011,MEDICATION//START//TraMADOL (Ultram),tramadol (ultram) started
+1012,MEDICATION//START//TraMADol,tramadol started
+1013,MEDICATION//START//TraZODone,trazodone started
+1014,MEDICATION//START//UNK,Unknown started
+1015,MEDICATION//START//Vancomycin,vancomycin started
+1016,MEDICATION//START//Vitamin D,vitamin d started
+1017,MEDICATION//START//Warfarin,warfarin started
+1018,MEDICATION//START//Zolpidem Tartrate,zolpidem tartrate started
+1019,MEDICATION//START//amLODIPine,amlodipine started
+1020,MEDICATION//STOP//Acetaminophen,acetaminophen stopped
+1021,MEDICATION//STOP//Acetaminophen IV,acetaminophen iv stopped
+1022,MEDICATION//STOP//Albuterol 0.083% Neb Soln,albuterol 0.083% neb soln stopped
+1023,MEDICATION//STOP//Albuterol Inhaler,albuterol inhaler stopped
+1024,MEDICATION//STOP//Aluminum-Magnesium Hydrox.-Simethicone,aluminum-magnesium hydrox.-simethicone stopped
+1025,MEDICATION//STOP//Amlodipine,amlodipine stopped
+1026,MEDICATION//STOP//Aspirin,aspirin stopped
+1027,MEDICATION//STOP//Aspirin EC,aspirin ec stopped
+1028,MEDICATION//STOP//Atorvastatin,atorvastatin stopped
+1029,MEDICATION//STOP//Azithromycin,azithromycin stopped
+1030,MEDICATION//STOP//Bisacodyl,bisacodyl stopped
+1031,MEDICATION//STOP//Calcium Carbonate,calcium carbonate stopped
+1032,MEDICATION//STOP//Calcium Gluconate,calcium gluconate stopped
+1033,MEDICATION//STOP//Calcium Gluconate sliding scale (Critical Care-Ionized calcium),calcium gluconate sliding scale (critical care-ionized calcium) stopped
+1034,MEDICATION//STOP//CeFAZolin,cefazolin stopped
+1035,MEDICATION//STOP//CefTRIAXone,ceftriaxone stopped
+1036,MEDICATION//STOP//CefazoLIN,cefazolin stopped
+1037,MEDICATION//STOP//CefePIME,cefepime stopped
+1038,MEDICATION//STOP//CeftriaXONE,ceftriaxone stopped
+1039,MEDICATION//STOP//Chlorhexidine Gluconate 0.12% Oral Rinse,chlorhexidine gluconate 0.12% oral rinse stopped
+1040,MEDICATION//STOP//Ciprofloxacin,ciprofloxacin stopped
+1041,MEDICATION//STOP//Ciprofloxacin HCl,ciprofloxacin hcl stopped
+1042,MEDICATION//STOP//Clopidogrel,clopidogrel stopped
+1043,MEDICATION//STOP//Dexamethasone,dexamethasone stopped
+1044,MEDICATION//STOP//Dextrose 50%,dextrose 50% stopped
+1045,MEDICATION//STOP//Diazepam,diazepam stopped
+1046,MEDICATION//STOP//DiphenhydrAMINE,diphenhydramine stopped
+1047,MEDICATION//STOP//Docusate Sodium,docusate sodium stopped
+1048,MEDICATION//STOP//Docusate Sodium (Liquid),docusate sodium (liquid) stopped
+1049,MEDICATION//STOP//Enoxaparin (Prophylaxis),enoxaparin (prophylaxis) stopped
+1050,MEDICATION//STOP//Enoxaparin Sodium,enoxaparin sodium stopped
+1051,MEDICATION//STOP//Famotidine,famotidine stopped
+1052,MEDICATION//STOP//Fentanyl Citrate,fentanyl citrate stopped
+1053,MEDICATION//STOP//Ferrous Sulfate,ferrous sulfate stopped
+1054,MEDICATION//STOP//FoLIC Acid,folic acid stopped
+1055,MEDICATION//STOP//Furosemide,furosemide stopped
+1056,MEDICATION//STOP//Gabapentin,gabapentin stopped
+1057,MEDICATION//STOP//Glucagon,glucagon stopped
+1058,MEDICATION//STOP//Glucose Gel,glucose gel stopped
+1059,MEDICATION//STOP//HYDROmorphone (Dilaudid),hydromorphone (dilaudid) stopped
+1060,MEDICATION//STOP//Haloperidol,haloperidol stopped
+1061,MEDICATION//STOP//Heparin,heparin stopped
+1062,MEDICATION//STOP//Heparin Flush (10 units/ml),heparin flush (10 units/ml) stopped
+1063,MEDICATION//STOP//HydrALAZINE,hydralazine stopped
+1064,MEDICATION//STOP//HydrALAzine,hydralazine stopped
+1065,MEDICATION//STOP//Hydrochlorothiazide,hydrochlorothiazide stopped
+1066,MEDICATION//STOP//Ibuprofen,ibuprofen stopped
+1067,MEDICATION//STOP//Influenza Vaccine Quadrivalent,influenza vaccine quadrivalent stopped
+1068,MEDICATION//STOP//Influenza Virus Vaccine,influenza virus vaccine stopped
+1069,MEDICATION//STOP//Insulin,insulin stopped
+1070,MEDICATION//STOP//Ipratropium Bromide Neb,ipratropium bromide neb stopped
+1071,MEDICATION//STOP//Ipratropium-Albuterol Neb,ipratropium-albuterol neb stopped
+1072,MEDICATION//STOP//Ketorolac,ketorolac stopped
+1073,MEDICATION//STOP//LORazepam,lorazepam stopped
+1074,MEDICATION//STOP//Labetalol,labetalol stopped
+1075,MEDICATION//STOP//Lactulose,lactulose stopped
+1076,MEDICATION//STOP//Levofloxacin,levofloxacin stopped
+1077,MEDICATION//STOP//Levothyroxine Sodium,levothyroxine sodium stopped
+1078,MEDICATION//STOP//Lidocaine 1%,lidocaine 1% stopped
+1079,MEDICATION//STOP//Lidocaine 1% (For PICC/Midline Insertions),lidocaine 1% (for picc/midline insertions) stopped
+1080,MEDICATION//STOP//Lidocaine 5% Patch,lidocaine 5% patch stopped
+1081,MEDICATION//STOP//Lidocaine Jelly 2% (Glydo),lidocaine jelly 2% (glydo) stopped
+1082,MEDICATION//STOP//Lisinopril,lisinopril stopped
+1083,MEDICATION//STOP//Lorazepam,lorazepam stopped
+1084,MEDICATION//STOP//Magnesium Oxide,magnesium oxide stopped
+1085,MEDICATION//STOP//Magnesium Sulfate,magnesium sulfate stopped
+1086,MEDICATION//STOP//Magnesium Sulfate Replacement (Critical Care and Oncology),magnesium sulfate replacement (critical care and oncology) stopped
+1087,MEDICATION//STOP//MetRONIDAZOLE (FLagyl),metronidazole (flagyl) stopped
+1088,MEDICATION//STOP//Metoclopramide,metoclopramide stopped
+1089,MEDICATION//STOP//Metoprolol Succinate XL,metoprolol succinate xl stopped
+1090,MEDICATION//STOP//Metoprolol Tartrate,metoprolol tartrate stopped
+1091,MEDICATION//STOP//MetroNIDAZOLE,metronidazole stopped
+1092,MEDICATION//STOP//Midazolam,midazolam stopped
+1093,MEDICATION//STOP//Milk of Magnesia,milk of magnesia stopped
+1094,MEDICATION//STOP//Morphine Sulfate,morphine sulfate stopped
+1095,MEDICATION//STOP//Multivitamins,multivitamins stopped
+1096,MEDICATION//STOP//Multivitamins W/minerals,multivitamins w/minerals stopped
+1097,MEDICATION//STOP//Neutra-Phos,neutra-phos stopped
+1098,MEDICATION//STOP//Nicotine Patch,nicotine patch stopped
+1099,MEDICATION//STOP//Nitroglycerin,nitroglycerin stopped
+1100,MEDICATION//STOP//Omeprazole,omeprazole stopped
+1101,MEDICATION//STOP//Ondansetron,ondansetron stopped
+1102,MEDICATION//STOP//OxyCODONE (Immediate Release),oxycodone (immediate release) stopped
+1103,MEDICATION//STOP//OxycoDONE (Immediate Release),oxycodone (immediate release) stopped
+1104,MEDICATION//STOP//Oxycodone-Acetaminophen,oxycodone-acetaminophen stopped
+1105,MEDICATION//STOP//PHENYLEPHrine,phenylephrine stopped
+1106,MEDICATION//STOP//PNEUMOcoccal 23-valent polysaccharide vaccine,pneumococcal 23-valent polysaccharide vaccine stopped
+1107,MEDICATION//STOP//Pantoprazole,pantoprazole stopped
+1108,MEDICATION//STOP//Phosphorus,phosphorus stopped
+1109,MEDICATION//STOP//Phytonadione,phytonadione stopped
+1110,MEDICATION//STOP//Piperacillin-Tazobactam,piperacillin-tazobactam stopped
+1111,MEDICATION//STOP//Pneumococcal Vac Polyvalent,pneumococcal vac polyvalent stopped
+1112,MEDICATION//STOP//Polyethylene Glycol,polyethylene glycol stopped
+1113,MEDICATION//STOP//Potassium Chloride,potassium chloride stopped
+1114,MEDICATION//STOP//Potassium Chloride (Powder),potassium chloride (powder) stopped
+1115,MEDICATION//STOP//Potassium Chloride Replacement (Critical Care and Oncology),potassium chloride replacement (critical care and oncology) stopped
+1116,MEDICATION//STOP//Potassium Chloride Replacement (Critical Care and Oncology),potassium chloride replacement (critical care and oncology) stopped
+1117,MEDICATION//STOP//Potassium Phosphate,potassium phosphate stopped
+1118,MEDICATION//STOP//PredniSONE,prednisone stopped
+1119,MEDICATION//STOP//Prochlorperazine,prochlorperazine stopped
+1120,MEDICATION//STOP//Propofol,propofol stopped
+1121,MEDICATION//STOP//Ramelteon,ramelteon stopped
+1122,MEDICATION//STOP//Ranitidine,ranitidine stopped
+1123,MEDICATION//STOP//Sarna Lotion,sarna lotion stopped
+1124,MEDICATION//STOP//Senna,senna stopped
+1125,MEDICATION//STOP//Simethicone,simethicone stopped
+1126,MEDICATION//STOP//Simvastatin,simvastatin stopped
+1127,MEDICATION//STOP//Sodium Chloride 0.9%  Flush,sodium chloride 0.9% flush stopped
+1128,MEDICATION//STOP//Sodium Phosphate,sodium phosphate stopped
+1129,MEDICATION//STOP//Tamsulosin,tamsulosin stopped
+1130,MEDICATION//STOP//Thiamine,thiamine stopped
+1131,MEDICATION//STOP//TraMADOL (Ultram),tramadol (ultram) stopped
+1132,MEDICATION//STOP//TraMADol,tramadol stopped
+1133,MEDICATION//STOP//TraZODone,trazodone stopped
+1134,MEDICATION//STOP//UNK,stopped
+1135,MEDICATION//STOP//Vancomycin,vancomycin stopped
+1136,MEDICATION//STOP//Vitamin D,vitamin d stopped
+1137,MEDICATION//STOP//Warfarin,warfarin stopped
+1138,MEDICATION//STOP//Zolpidem Tartrate,zolpidem tartrate stopped
+1139,MEDICATION//STOP//amLODIPine,amlodipine stopped
+1140,MEDICATION//Senna//Administered,senna administered
+1141,MEDICATION//Senna//Not Given,senna not given
+1142,MEDICATION//Sodium Chloride 0.9%  Flush//Administered,sodium chloride 0.9% flush administered
+1143,MEDICATION//Sodium Chloride 0.9%  Flush//Flushed,sodium chloride 0.9% flush flush administered (Flushed)
+1144,MEDICATION//Sodium Chloride 0.9%  Flush//Not Flushed,sodium chloride 0.9% flush flush not administered
+1145,MEDICATION//Tamsulosin//Administered,tamsulosin administered
+1146,MEDICATION//Thiamine//Administered,thiamine administered
+1147,MEDICATION//TraMADol//Administered,tramadol administered
+1148,MEDICATION//TraZODone//Administered,trazodone administered
+1149,MEDICATION//UNK//Administered,Unknown administered
+1150,MEDICATION//UNK//Confirmed,Unknown confirmed
+1151,MEDICATION//UNK//Started,Unknown started
+1152,MEDICATION//UNK//Stopped,Unknown stopped
+1153,MEDICATION//UNK//Stopped - Unscheduled,Unknown stopped unscheduled
+1154,MEDICATION//UNK//Stopped in Other Location,Unknown stopped in other location
+1155,MEDICATION//Vancomycin//Administered,vancomycin administered
+1156,MEDICATION//Vitamin D//Administered,vitamin d administered
+1157,MEDICATION//amLODIPine//Administered,amlodipine administered
+1158,MEDS_BIRTH,Patient was born
+1159,MEDS_DEATH,Patient died
+1160,PROCEDURE//END//221214,Computerized axial tomography ended
+1161,PROCEDURE//END//224263,Central venous cannula insertion ended
+1162,PROCEDURE//END//224274,22 Gauge IV insertion ended
+1163,PROCEDURE//END//224275,20 Gauge IV insertion ended
+1164,PROCEDURE//END//224277,18 Gauge IV insertion ended
+1165,PROCEDURE//END//225402,Electrocardiographic procedure ended
+1166,PROCEDURE//END//225459,Plain chest X-ray ended
+1167,PROCEDURE//END//225469,Patient transfer to intensive care unit ended
+1168,PROCEDURE//END//225752,Insertion of catheter into artery ended
+1169,PROCEDURE//END//225792,Invasive ventilation ended
+1170,PROCEDURE//END//227194,Removal of endotracheal tube ended
+1171,PROCEDURE//END//229351,Foley Catheter Insertion (procedure) ended
+1172,PROCEDURE//START//221214,Computerized axial tomography started
+1173,PROCEDURE//START//224263,Central venous cannula insertion started
+1174,PROCEDURE//START//224274,22 Gauge IV insertion started
+1175,PROCEDURE//START//224275,20 Gauge IV insertion started
+1176,PROCEDURE//START//224277,18 Gauge IV insertion started
+1177,PROCEDURE//START//225402,Electrocardiographic procedure started
+1178,PROCEDURE//START//225459,Plain chest X-ray started
+1179,PROCEDURE//START//225469,Patient transfer to intensive care unit started
+1180,PROCEDURE//START//225752,Insertion of catheter into artery started
+1181,PROCEDURE//START//225792,Invasive ventilation started
+1182,PROCEDURE//START//227194,Removal of endotracheal tube started
+1183,PROCEDURE//START//229351,Foley Catheter Insertion Start (procedure) started
+1184,SUBJECT_FLUID_OUTPUT//226559//mL,Urine output via Foley catheter (mL)
+1185,SUBJECT_FLUID_OUTPUT//226560//mL,Urine output via normal voiding/urination (mL)
+1186,SUBJECT_FLUID_OUTPUT//226588//mL,Fluid output chest tube (mL)
+1187,SUBJECT_FLUID_OUTPUT//226627//mL,Urine output during operating room procedures (mL)
+1188,SUBJECT_WEIGHT_AT_INFUSION//KG,Weight (KG) at infusion
+1189,TRANSFER_TO//ED//Emergency Department,Transferred to Emergency Department
+1190,TRANSFER_TO//admit//Discharge Lounge,Admitted to Discharge Lounge
+1191,TRANSFER_TO//admit//Emergency Department Observation,Admitted to Emergency Department Observation
+1192,TRANSFER_TO//admit//Labor & Delivery,Admitted to Labor & Delivery
+1193,TRANSFER_TO//admit//Med/Surg,Admitted to Med/Surg
+1194,TRANSFER_TO//admit//Medicine,Admitted to Medicine
+1195,TRANSFER_TO//admit//Medicine/Cardiology,Admitted to Medicine/Cardiology
+1196,TRANSFER_TO//admit//Neurology,Admitted to Neurology
+1197,TRANSFER_TO//discharge//UNKNOWN,Discharged
+1198,TRANSFER_TO//transfer//Cardiac Vascular Intensive Care Unit (CVICU),Transferred to Cardiac Vascular Intensive Care Unit (CVICU)
+1199,TRANSFER_TO//transfer//Discharge Lounge,Transferred to Discharge Lounge
+1200,TRANSFER_TO//transfer//Med/Surg,Transferred to Med/Surg
+1201,TRANSFER_TO//transfer//Medicine,Transferred to Medicine
+1202,TRANSFER_TO//transfer//Medicine/Cardiology,Transferred to Medicine/Cardiology
+1203,TRANSFER_TO//transfer//Neurology,Transferred to Neurology
+1204,TRANSFER_TO//transfer//PACU,Transferred to PACU
+1205,Weight (Lbs),Weight (Lbs)

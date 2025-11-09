@@ -1,0 +1,9 @@
+defaults:
+  - ray
+  - early_stopping
+  - _self_
+
+early_stopping:
+  monitor: "val/loss"
+  patience: 3
+  mode: "min"
