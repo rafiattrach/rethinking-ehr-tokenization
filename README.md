@@ -1,7 +1,9 @@
 # Rethinking Tokenization for Clinical Time Series (ML4H Findings 2025)
 
+**[Paper](https://openreview.net/pdf?id=kdzXH4yxKs)**
+
 ## Acknowledgements
-This repository contains the code for the experiments in our paper, "Rethinking Tokenization for Clinical Time Series: When Less is More." The codebase is adapted from the [`meds-torch` library](https://github.com/Oufattole/meds-torch). We thank the original authors for their foundational work. For the maintained, production-ready version of the library, please see the official repository.
+This repository contains the code for the experiments in our paper, ["Rethinking Tokenization for Clinical Time Series: When Less is More."](https://openreview.net/pdf?id=kdzXH4yxKs) The codebase is adapted from the [`meds-torch` library](https://github.com/Oufattole/meds-torch). We thank the original authors for their foundational work. For the maintained version, please see the official repository.
 
 ---
 
