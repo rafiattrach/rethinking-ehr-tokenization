@@ -14,8 +14,12 @@ This work presents a systematic evaluation of tokenization approaches for clinic
 | -------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
 | **Time Features**    | Explicit time encodings showed no statistically significant benefit.                 | Sequence order in transformers may be sufficient for the tasks studied.        |
 | **Value Features**   | Importance is task-dependent (critical for mortality, less so for readmission).      | Code sequences alone can carry significant predictive signal for some tasks.   |
-| **Frozen Encoders**  | Dramatically outperform trainable encoders with far fewer parameters.                | Pretrained knowledge acts as a powerful, regularized feature extractor.        |
-| **Code Information** | Emerges as the most critical predictive signal across all experiments.               | The quality of code representations is paramount for model performance.        |
+| **Frozen Encoders**  | Tend to outperform trainable encoders with far fewer parameters.                     | Pretrained knowledge may serve as an effective regularized feature extractor.  |
+| **Code Information** | Appears to be the strongest predictive signal across the experiments studied.        | Code representation quality may be a key driver of model performance.          |
+
+<p align="center">
+  <img src="docs/waterfall_all_tasks_grouped.png" width="85%" alt="Waterfall plot of ablation results across all tasks" />
+</p>
 
 ## Repository Structure
 
@@ -43,6 +47,26 @@ This work presents a systematic evaluation of tokenization approaches for clinic
 - **Framework**: MEDS-Torch with transformer encoders
 - **Evaluation**: AUROC with 10 random seeds, statistical significance testing
 
+<p align="center">
+  <img src="docs/efficiency_frontier_textcode.png" width="75%" alt="Efficiency frontier: performance vs. parameter count for TextCode variants" />
+</p>
+
 ---
 
-*This research demonstrates that simpler, more parameter-efficient tokenization approaches can achieve competitive performance in clinical time series modeling, challenging assumptions about the necessity of complex temporal encodings while clarifying the task-dependent role of value features.*
+*This research suggests that simpler, more parameter-efficient tokenization approaches may achieve competitive performance in clinical time series modeling, raising questions about the necessity of complex temporal encodings and highlighting the task-dependent role of value features.*
+
+---
+
+## Citation
+
+If you use this code or build on this work, please cite:
+
+```bibtex
+@misc{attrach2025ehrtokenization,
+  title     = {Rethinking Tokenization for Clinical Time Series: When Less is More},
+  author    = {Al Attrach, Rafi and Fani, Rajna and Restrepo, David and Jia, Yugang
+               and Celi, Leo Anthony and Sch\"{u}ffler, Peter},
+  year      = {2025},
+  note      = {Machine Learning for Health (ML4H) 2025 - Findings Track}
+}
+```
